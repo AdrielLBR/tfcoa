@@ -1,0 +1,14 @@
+{
+  "name": "[Hexcrawl] Subtable 4.4: Tribal Patrol Specials",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 1], "text": "<strong>Level 4 Acolyte of Impurax:</strong> AC 4 (AAC 15, Chain & Shield), HD 4, HP 21, Mace (1d6) & Sling (1d4, 20 stones; 10% 1 item is +1). Spells (3/2): <em>Entangle, Fistfang, Ray of Decay, Hold Person, Moldskin</em>." },
+    { "type": "text", "weight": 1, "range": [2, 2], "text": "<strong>Level 4 Acolyte of Impurax</strong> (as above) + <strong>Level 3 Fang of Impurax:</strong> AC 2 (AAC 17, Plate & Shield), HD 3, HP 22, Spear (1d6), Scimitar (1d8), Dagger (1d4; 10% 1 item is +1)." },
+    { "type": "text", "weight": 1, "range": [3, 3], "text": "<strong>Ogre:</strong> AL C, AC 5 (AAC 14), HD 4+1, HP 21, #AT 1, Giant Club (1d10+2)." },
+    { "type": "text", "weight": 1, "range": [4, 4], "text": "<strong>Slaves ([[/r 1d6]]):</strong> 1–3: [[/r 1d8+4]] Human Slaves; 4–6: [[/r 1d8+4]] Mixed Slaves (Human, Demi-Human, Kobold, Orc, or Goblin)." },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "<strong>Brute ([[/r 1d6]]):</strong> 1–3: <strong>Minotaur</strong> (AL CE, AC 6 [AAC 13], HD 6, HP 27, Battle Axe 1d8+2); 4–6: <strong>Tricerotaur</strong> (AL CE, AC 4 [AAC 15], HD 8, HP 47, Massive Morningstar 2d8+3)." },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "Roll two of the above (reroll 6s)." }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "[Hexcrawl] Dragon's Teeth Henge",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 5], "text": "<strong>Abandoned:</strong> The ancient Hengegate stands silent and empty amidst the cracked badlands." },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "<strong>Occupied — Adventurers:</strong> Roll on <em>[Hexcrawl] Dragon's Teeth Henge: Rival Adventuring Party</em>." },
+    { "type": "text", "weight": 1, "range": [7, 9], "text": "<strong>Occupied — Humanoid Monsters:</strong> Roll on <em>[Hexcrawl] Table 4.1: Tribal Patrol and Motivation</em>." },
+    { "type": "text", "weight": 1, "range": [10, 10], "text": "<strong>Special:</strong> Roll on <em>[Hexcrawl] Dragon's Teeth Henge: Special Encounter</em>." }
+  ]
+}

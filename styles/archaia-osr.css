@@ -1,0 +1,50 @@
+/* Estilização OSR Monocromática para Journals de Archaia */
+.journal-sheet .journal-entry-content {
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #111111;
+}
+
+/* Caixa de Texto para Ler em Voz Alta (Read-Aloud Box) */
+.archaia-readaloud {
+  background-color: #f4f4f4;
+  border-left: 4px solid #111111;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 14px;
+  margin: 12px 0;
+  font-style: italic;
+}
+
+/* Bloco de Encontros / Sala de Masmorra */
+.archaia-room-header {
+  border-bottom: 2px solid #000000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+/* Tabelas estilo livro OSR */
+.journal-entry-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #000000;
+}
+
+.journal-entry-content th {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: left;
+  padding: 6px 8px;
+}
+
+.journal-entry-content td {
+  border: 1px solid #666666;
+  padding: 5px 8px;
+}
+
+.journal-entry-content tr:nth-child(even) {
+  background-color: #eeeeee;
+}

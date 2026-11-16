@@ -1,0 +1,28 @@
+{
+  "name": "[Hexcrawl] Table 1.1A: Random Monsters (Levels 1-3)",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 1], "text": "Pterodactyl ([[/r 1d3]])" },
+    { "type": "text", "weight": 1, "range": [2, 2], "text": "Giant Rat ([[/r 3d6]])" },
+    { "type": "text", "weight": 1, "range": [3, 3], "text": "Dimetrodon (1)" },
+    { "type": "text", "weight": 1, "range": [4, 4], "text": "Velociraptor ([[/r 1d10]])" },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "Skeleton ([[/r 1d10]])" },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "Zombie ([[/r 1d6]])" },
+    { "type": "text", "weight": 1, "range": [7, 7], "text": "Rock Reptile, 2 HD ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [8, 8], "text": "Terrordactyl ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [9, 9], "text": "Giant Mosquito ([[/r 1d6]])" },
+    { "type": "text", "weight": 1, "range": [10, 10], "text": "Axe Beak ([[/r 2d6]])" },
+    { "type": "text", "weight": 1, "range": [11, 11], "text": "Owlbear (1)" },
+    { "type": "text", "weight": 1, "range": [12, 12], "text": "Giant Blister Beetle ([[/r 1d6]])" },
+    { "type": "text", "weight": 1, "range": [13, 13], "text": "Giant Earthworm ([[/r 1d6]])" },
+    { "type": "text", "weight": 1, "range": [14, 14], "text": "Megalocentipede ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [15, 15], "text": "Wolf ([[/r 2d6]])" },
+    { "type": "text", "weight": 1, "range": [16, 16], "text": "Giant Scorpion ([[/r 1d4]])" },
+    { "type": "text", "weight": 1, "range": [17, 17], "text": "Giant Draco Lizard ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [18, 18], "text": "Giant Rattlesnake (1)" },
+    { "type": "text", "weight": 1, "range": [19, 19], "text": "Giant Ant ([[/r 2d6]])" },
+    { "type": "text", "weight": 1, "range": [20, 20], "text": "Roll on <em>Table 1.1B: Random Monsters (Levels 4-7)</em>." }
+  ]
+}

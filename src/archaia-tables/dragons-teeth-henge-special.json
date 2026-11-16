@@ -1,0 +1,14 @@
+{
+  "name": "[Hexcrawl] Dragon's Teeth Henge: Special Encounter",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 1], "text": "Dead adventurers (looted)." },
+    { "type": "text", "weight": 1, "range": [2, 2], "text": "Forbidden Zone Scarecrow." },
+    { "type": "text", "weight": 1, "range": [3, 3], "text": "Vultures circling dead men-at-arms and monstrous humanoids (Referee's choice)." },
+    { "type": "text", "weight": 1, "range": [4, 4], "text": "Insane, emaciated human slave who babbles incoherently." },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "Recent campfires and gnawed human bones." },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "As PCs approach the henge, a group of adventurers standing in the center disappear in a flash of light." }
+  ]
+}

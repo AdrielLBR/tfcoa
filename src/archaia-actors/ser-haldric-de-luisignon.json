@@ -1,0 +1,52 @@
+{
+  "name": "Ser Haldric de Luisignon",
+  "type": "character",
+  "img": "modules/forbidden-caverns-archaia/assets/art/npc-haldric.webp",
+  "system": {
+    "details": {
+      "biography": "<p><strong>High Paladin of St. Ygg &amp; Commander of the Order of the Crimson Cross (Red Bannermen).</strong> Noble, zealous warrior commanding a 10-man detachment of Red Bannermen. Rides a heavy warhorse named <em>Clyde</em> (HD 5+5, 40 HP).</p><p><strong>Magic Items:</strong> Plate Mail +2, Shield +2, Frost Brand Longsword +3, Gauntlets of Ogre Power (Effective STR 18/00), Helm of Free Action.</p>",
+      "alignment": "Lawful",
+      "class": "Paladin",
+      "level": 7
+    },
+    "hp": { "value": 65, "max": 65 },
+    "ac": { "value": -4, "mod": 0 },
+    "aac": { "value": 23, "mod": 0 },
+    "thac0": { "value": 14, "bba": 5 },
+    "scores": {
+      "str": { "value": 18 },
+      "int": { "value": 15 },
+      "wis": { "value": 16 },
+      "dex": { "value": 16 },
+      "con": { "value": 17 },
+      "cha": { "value": 18 }
+    }
+  },
+  "items": [
+    {
+      "name": "Frost Brand Longsword +3",
+      "type": "weapon",
+      "system": {
+        "damage": "1d8+3",
+        "bonus": 3,
+        "melee": true
+      }
+    },
+    {
+      "name": "Plate Mail +2",
+      "type": "armor",
+      "system": {
+        "ac": { "value": 1 },
+        "aac": { "value": 18 }
+      }
+    },
+    {
+      "name": "Shield +2",
+      "type": "armor",
+      "system": {
+        "ac": { "value": 3 },
+        "aac": { "value": 3 }
+      }
+    }
+  ]
+}

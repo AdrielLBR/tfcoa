@@ -1,0 +1,105 @@
+{
+  "id": "forbidden-caverns-archaia",
+  "title": "The Forbidden Caverns of Archaia (OSE)",
+  "description": "Complete megadungeon and hexcrawl module based on the work of Greg Gillespie, adapted for Old-School Essentials with original monochrome artwork.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "AdrielLBR (Foundry VTT Adaptation)",
+      "flags": {}
+    },
+    {
+      "name": "Greg Gillespie (Original Author)",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "ose",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "archaia-journals",
+      "label": "Archaia: Journals, Lore & Guides",
+      "path": "packs/archaia-journals",
+      "type": "JournalEntry",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archaia-actors",
+      "label": "Archaia: Bestiary, Tribes & NPCs",
+      "path": "packs/archaia-actors",
+      "type": "Actor",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archaia-items",
+      "label": "Archaia: Magic Items, Relics & Archomancy",
+      "path": "packs/archaia-items",
+      "type": "Item",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archaia-tables",
+      "label": "Archaia: Random Tables & Rumors",
+      "path": "packs/archaia-tables",
+      "type": "RollTable",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "archaia-scenes",
+      "label": "Archaia: Maps & Dungeons",
+      "path": "packs/archaia-scenes",
+      "type": "Scene",
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "The Forbidden Caverns of Archaia",
+      "sorting": "m",
+      "color": "#1a1a1a",
+      "packs": [
+        "archaia-journals",
+        "archaia-scenes",
+        "archaia-actors",
+        "archaia-items",
+        "archaia-tables"
+      ]
+    }
+  ],
+  "styles": [
+    "styles/archaia-osr.css"
+  ]
+}

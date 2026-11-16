@@ -1,0 +1,16 @@
+{
+  "name": "[Hexcrawl] Dragon's Teeth Henge: Rival Adventuring Party",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 1], "text": "Inglorious Bastards" },
+    { "type": "text", "weight": 1, "range": [2, 2], "text": "Two... and a Half-Man" },
+    { "type": "text", "weight": 1, "range": [3, 3], "text": "Sons of Arkhos" },
+    { "type": "text", "weight": 1, "range": [4, 4], "text": "Booty Snatchers" },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "Red Bannermen" },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "The Dirty Rotten Scoundrels" },
+    { "type": "text", "weight": 1, "range": [7, 7], "text": "The Heathens" },
+    { "type": "text", "weight": 1, "range": [8, 8], "text": "Roll twice on this subtable (ignore 8)." }
+  ]
+}

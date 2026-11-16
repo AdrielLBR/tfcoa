@@ -1,0 +1,20 @@
+{
+  "name": "[Hexcrawl] Subtable 4.2: Tribal Patrol Encounter Type",
+  "formula": "1d12",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 1], "text": "<strong>Patrol I — Kobolds:</strong> Roll on <em>Subtable 4.3A: Kobold Patrol</em>." },
+    { "type": "text", "weight": 1, "range": [2, 2], "text": "<strong>Patrol I — Froglings:</strong> Roll on <em>Subtable 4.3B: Frogling Patrol</em>." },
+    { "type": "text", "weight": 1, "range": [3, 3], "text": "<strong>Patrol I — Goblins:</strong> Roll on <em>Subtable 4.3C: Goblin Patrol</em>." },
+    { "type": "text", "weight": 1, "range": [4, 4], "text": "<strong>Patrol I — Orcs:</strong> Roll on <em>Subtable 4.3D: Orc Patrol</em>." },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "<strong>Patrol I — Dervishes:</strong> Roll on <em>Subtable 4.3E: Dervish Patrol</em>." },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "<strong>Patrol I — Fanged Legion:</strong> Roll on <em>Subtable 4.3F: Fanged Legion Patrol</em>." },
+    { "type": "text", "weight": 1, "range": [7, 7], "text": "<strong>Patrol II — Hobgoblins:</strong> Roll on <em>Subtable 4.3G: Hobgoblin Patrol</em>." },
+    { "type": "text", "weight": 1, "range": [8, 8], "text": "<strong>Patrol II — Gnolls:</strong> Roll on <em>Subtable 4.3H: Gnoll Patrol</em>." },
+    { "type": "text", "weight": 1, "range": [9, 9], "text": "<strong>Patrol II — Lizardmen:</strong> Roll on <em>Subtable 4.3I: Lizardman Patrol</em>." },
+    { "type": "text", "weight": 1, "range": [10, 10], "text": "<strong>Patrol II — Bugbears:</strong> Roll on <em>Subtable 4.3J: Bugbear Patrol</em>." },
+    { "type": "text", "weight": 1, "range": [11, 11], "text": "<strong>Patrol II — Neanderthals:</strong> Roll on <em>Subtable 4.3K: Neanderthal Patrol</em>." },
+    { "type": "text", "weight": 1, "range": [12, 12], "text": "<strong>Referee's Choice:</strong> Choose any Patrol I or II (or Ogres/Minotaurs/Black Orcs at mid+ levels)." }
+  ]
+}

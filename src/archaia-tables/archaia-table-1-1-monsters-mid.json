@@ -1,0 +1,28 @@
+{
+  "name": "[Hexcrawl] Table 1.1B: Random Monsters (Levels 4-7)",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 1], "text": "Giant Dragonfly ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [2, 2], "text": "Dust Digger ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [3, 3], "text": "Sand Stalker ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [4, 4], "text": "Giant Saw-Toothed Beetle ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "Mummy ([[/r 1d6]])" },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "Deinonychus ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [7, 7], "text": "Hydra (1)" },
+    { "type": "text", "weight": 1, "range": [8, 8], "text": "Wight ([[/r 1d4]])" },
+    { "type": "text", "weight": 1, "range": [9, 9], "text": "Giant Pterodactyl ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [10, 10], "text": "Manticore ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [11, 11], "text": "Giant Pterodactyl ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [12, 12], "text": "Giant Sliver Beetle ([[/r 1d3]])" },
+    { "type": "text", "weight": 1, "range": [13, 13], "text": "Troll ([[/r 1d4]])" },
+    { "type": "text", "weight": 1, "range": [14, 14], "text": "Rock Reptile, 5 HD ([[/r 1d2]])" },
+    { "type": "text", "weight": 1, "range": [15, 15], "text": "Ghoul ([[/r 1d6]])" },
+    { "type": "text", "weight": 1, "range": [16, 16], "text": "Wraith ([[/r 1d3]])" },
+    { "type": "text", "weight": 1, "range": [17, 17], "text": "Giant Beetle Exoskeleton (1)" },
+    { "type": "text", "weight": 1, "range": [18, 18], "text": "Sandling ([[/r 1d3]])" },
+    { "type": "text", "weight": 1, "range": [19, 19], "text": "Giant Scorpion ([[/r 2d6]])" },
+    { "type": "text", "weight": 1, "range": [20, 20], "text": "Huge Scorpion ([[/r 1d4+1]])" }
+  ]
+}

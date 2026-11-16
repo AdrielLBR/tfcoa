@@ -1,0 +1,53 @@
+{
+  "name": "Eldrex the Fletcher",
+  "type": "character",
+  "img": "modules/forbidden-caverns-archaia/assets/art/npc-eldrex.webp",
+  "system": {
+    "details": {
+      "biography": "<p><strong>Town Fletcher of Eastdale.</strong> Keen-eyed half-elf woodsman who stocks arrows and crossbow bolts at standard prices. Bows and crossbows must be special-ordered from Threshold at +15% markup.</p><p><strong>Equipment:</strong> Studded Leather Armor, Spear +1, Longbow.</p>",
+      "alignment": "Chaotic",
+      "class": "Ranger",
+      "level": 2
+    },
+    "hp": { "value": 21, "max": 21 },
+    "ac": { "value": 4, "mod": 0 },
+    "aac": { "value": 15, "mod": 0 },
+    "thac0": { "value": 19, "bba": 0 },
+    "scores": {
+      "str": { "value": 15 },
+      "int": { "value": 15 },
+      "wis": { "value": 14 },
+      "dex": { "value": 17 },
+      "con": { "value": 15 },
+      "cha": { "value": 16 }
+    }
+  },
+  "items": [
+    {
+      "name": "Spear +1",
+      "type": "weapon",
+      "system": {
+        "damage": "1d6+1",
+        "bonus": 1,
+        "melee": true
+      }
+    },
+    {
+      "name": "Longbow",
+      "type": "weapon",
+      "system": {
+        "damage": "1d6",
+        "bonus": 0,
+        "missile": true
+      }
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "armor",
+      "system": {
+        "ac": { "value": 7 },
+        "aac": { "value": 12 }
+      }
+    }
+  ]
+}

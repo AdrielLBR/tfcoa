@@ -1,0 +1,36 @@
+{
+  "name": "Randle Oliver",
+  "type": "character",
+  "img": "modules/forbidden-caverns-archaia/assets/art/npc-randle.webp",
+  "system": {
+    "details": {
+      "biography": "<p><strong>Proprietor of The Golden Crown (Jeweler &amp; Moneylender).</strong> Appraises gemstones, exchanges Archinium Pieces (5% fee), accepts vault deposits (5% fee per transaction), and lends up to 400 gp per character level at 20% interest.</p>",
+      "alignment": "Neutral",
+      "class": "Normal Human",
+      "level": 0
+    },
+    "hp": { "value": 4, "max": 4 },
+    "ac": { "value": 10, "mod": 0 },
+    "aac": { "value": 9, "mod": 0 },
+    "thac0": { "value": 20, "bba": -1 },
+    "scores": {
+      "str": { "value": 10 },
+      "int": { "value": 14 },
+      "wis": { "value": 12 },
+      "dex": { "value": 11 },
+      "con": { "value": 15 },
+      "cha": { "value": 10 }
+    }
+  },
+  "items": [
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "system": {
+        "damage": "1d4",
+        "bonus": 0,
+        "melee": true
+      }
+    }
+  ]
+}

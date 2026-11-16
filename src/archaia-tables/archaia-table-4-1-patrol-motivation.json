@@ -1,0 +1,14 @@
+{
+  "name": "[Hexcrawl] Table 4.1: Tribal Patrol and Motivation",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 1], "text": "<strong>Patrol (Subtable 4.2)</strong> transporting carrion and organic waste to the Great Henge." },
+    { "type": "text", "weight": 1, "range": [2, 2], "text": "<strong>Patrol (Subtable 4.2)</strong> returning with <strong>Cargo (Subtable 4.5)</strong>." },
+    { "type": "text", "weight": 1, "range": [3, 3], "text": "<strong>Patrol (Subtable 4.2)</strong> scavenging for <strong>Cargo (Subtable 4.5)</strong>." },
+    { "type": "text", "weight": 1, "range": [4, 4], "text": "<strong>Patrol A (Subtable 4.2)</strong> fighting with <strong>Patrol B (Subtable 4.2)</strong> over <strong>Cargo (Subtable 4.5)</strong>." },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "<strong>Patrol A (Subtable 4.2)</strong> raiding on <strong>Patrol B (Subtable 4.2)</strong> for <strong>Cargo (Subtable 4.5)</strong>." },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "<strong>Patrol A (Subtable 4.2)</strong> trading <strong>Item A (Subtable 4.5)</strong> with <strong>Patrol B (Subtable 4.2)</strong> for <strong>Item B (Subtable 4.5)</strong>." }
+  ]
+}

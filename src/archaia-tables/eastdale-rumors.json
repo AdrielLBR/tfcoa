@@ -1,0 +1,28 @@
+{
+  "name": "[Eastdale] Random Rumour Table",
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 1], "text": "Raids are more common than ever along local caravan routes." },
+    { "type": "text", "weight": 1, "range": [2, 2], "text": "The antiquities dealer in Eastdale pays good coin for Archaian artifacts." },
+    { "type": "text", "weight": 1, "range": [3, 3], "text": "The Forbidden Zone is dangerous. Some even say the area is magic dead." },
+    { "type": "text", "weight": 1, "range": [4, 4], "text": "(FALSE) The ruins of Archaia can be found to the south." },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "Hudson's Grey Company is always looking for strong sword-arms." },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "The caravan route through the Darkwood is called 'The Gauntlet' by local mercenaries." },
+    { "type": "text", "weight": 1, "range": [7, 7], "text": "Elves are viewed with suspicion in the Middenmark. Nobody trusts a stinkin' elf!" },
+    { "type": "text", "weight": 1, "range": [8, 8], "text": "Humans can't really tell one halfling from another and generically refer to them as 'pecks'." },
+    { "type": "text", "weight": 1, "range": [9, 9], "text": "The Saucy Tart is the best place to hear local scuttlebutt." },
+    { "type": "text", "weight": 1, "range": [10, 10], "text": "The Forbidden Zone is unpredictable. There are flash storms, tribal warbands, and great monsters. Beware!" },
+    { "type": "text", "weight": 1, "range": [11, 11], "text": "In the Northern Reaches warriors prefer the broadsword (1d6+1) and the spear." },
+    { "type": "text", "weight": 1, "range": [12, 12], "text": "In a recent raid, a caravan was destroyed by a group of orcs led by a hill giant. They took the human passengers." },
+    { "type": "text", "weight": 1, "range": [13, 13], "text": "(FALSE) There is no thieves' guild in the region." },
+    { "type": "text", "weight": 1, "range": [14, 14], "text": "The blacksmith, Samuel Armstrong, doesn't have a very good reputation in Eastdale." },
+    { "type": "text", "weight": 1, "range": [15, 15], "text": "The local wizard, Muirron the Magician, will pay gold for books, scrolls, and ancient Archaian lore." },
+    { "type": "text", "weight": 1, "range": [16, 16], "text": "In the time between the fall of Archaia and now, locals interred their dead in the walls of the canyon." },
+    { "type": "text", "weight": 1, "range": [17, 17], "text": "In the past the men of Eastdale and its neighboring villages have fought skirmishes against goblins and orcs." },
+    { "type": "text", "weight": 1, "range": [18, 18], "text": "(FALSE) Dragon's Teeth Henge, at the edge of the Forbidden Zone, is haunted." },
+    { "type": "text", "weight": 1, "range": [19, 19], "text": "Adventurers like you have recently come into town. They are usually getting drunk at The Saucy Tart." },
+    { "type": "text", "weight": 1, "range": [20, 20], "text": "Roll two more times on the Rumour Table (ignore doubles and 20)." }
+  ]
+}

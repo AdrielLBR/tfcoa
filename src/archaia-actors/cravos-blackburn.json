@@ -1,0 +1,36 @@
+{
+  "name": "Cravos Blackburn",
+  "type": "character",
+  "img": "modules/forbidden-caverns-archaia/assets/art/npc-cravos.webp",
+  "system": {
+    "details": {
+      "biography": "<p><strong>Barkeep &amp; Owner of The Saucy Tart.</strong> Retired militia veteran who keeps strict order in his tavern. Will clarify local rumors in exchange for gold coins, though he fiercely dislikes bar brawls.</p>",
+      "alignment": "Neutral",
+      "class": "Fighter",
+      "level": 2
+    },
+    "hp": { "value": 15, "max": 15 },
+    "ac": { "value": 10, "mod": 0 },
+    "aac": { "value": 9, "mod": 0 },
+    "thac0": { "value": 19, "bba": 0 },
+    "scores": {
+      "str": { "value": 13 },
+      "int": { "value": 12 },
+      "wis": { "value": 12 },
+      "dex": { "value": 9 },
+      "con": { "value": 12 },
+      "cha": { "value": 15 }
+    }
+  },
+  "items": [
+    {
+      "name": "Fist",
+      "type": "weapon",
+      "system": {
+        "damage": "1d4",
+        "bonus": 0,
+        "melee": true
+      }
+    }
+  ]
+}

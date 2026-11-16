@@ -1,0 +1,36 @@
+{
+  "name": "Jon the Miller",
+  "type": "character",
+  "img": "modules/forbidden-caverns-archaia/assets/art/npc-jon.webp",
+  "system": {
+    "details": {
+      "biography": "<p><strong>Operator of the Windmill outside Eastdale (Secret Cultist of Impurax).</strong> Appears to be a simple, harmless miller, but secretly shelters Impurax cult agents and Darkeyes smugglers beneath the mill floorboards after dark.</p><p><strong>Magic Items:</strong> Amulet of Proof Against Alignment Detection.</p>",
+      "alignment": "Chaotic",
+      "class": "Normal Human",
+      "level": 0
+    },
+    "hp": { "value": 3, "max": 3 },
+    "ac": { "value": 10, "mod": 0 },
+    "aac": { "value": 9, "mod": 0 },
+    "thac0": { "value": 20, "bba": -1 },
+    "scores": {
+      "str": { "value": 10 },
+      "int": { "value": 9 },
+      "wis": { "value": 9 },
+      "dex": { "value": 9 },
+      "con": { "value": 13 },
+      "cha": { "value": 8 }
+    }
+  },
+  "items": [
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "system": {
+        "damage": "1d4",
+        "bonus": 0,
+        "melee": true
+      }
+    }
+  ]
+}

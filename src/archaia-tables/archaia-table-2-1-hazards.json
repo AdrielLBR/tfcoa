@@ -1,0 +1,16 @@
+{
+  "name": "[Hexcrawl] Table 2.1: Archaia Random Hex Hazards",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 1], "text": "<strong>Earthquake:</strong> Dexterity check or fall prone. 1–2 on [[/r 1d6]] unearths a new dungeon opening ([[/r 1d6]]: 1–2 Natural Cave, 3 Ruined Arch, 4–5 Sealed Crypt, 6 Sewer)." },
+    { "type": "text", "weight": 1, "range": [2, 2], "text": "<strong>Rockslide:</strong> Deals [[/r 1d4]] damage per average party level (rounding down); Save vs. Breath/Paralysis for half." },
+    { "type": "text", "weight": 1, "range": [3, 3], "text": "<strong>Sinkhole:</strong> Constitution check to avoid sliding down (+1 cumulative penalty each subsequent round). Natural 20 sucks PC down immediately (lost unless exit exists)." },
+    { "type": "text", "weight": 1, "range": [4, 4], "text": "<strong>Sandstorm:</strong> Visibility reduced to zero. 80% chance party veers off course; movement slows to 1/4 unless halted." },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "<strong>Acid Rain:</strong> Lasts [[/r 2d4]] rounds; deals [[/r 1d4]] damage/round per character level to exposed flesh (metal and clothing unaffected)." },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "<strong>Insect Plague ([[/r 1d6]]):</strong> 1–3 Locusts, 4–6 Beetles. Dig a hole, cover up, or light torches and huddle together or be swept into a random adjacent hex." },
+    { "type": "text", "weight": 1, "range": [7, 7], "text": "<strong>Meteor Shower:</strong> Pulverizes the hex; PCs take [[/r 1d6]] damage per level." },
+    { "type": "text", "weight": 1, "range": [8, 8], "text": "<strong>Temperature Change:</strong> Flash snowstorm or scorching heat (same effect as <em>Freeze/Heat Metal</em>) for 10 hours; movement slowed to half." }
+  ]
+}

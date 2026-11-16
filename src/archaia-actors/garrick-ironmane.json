@@ -1,0 +1,36 @@
+{
+  "name": "Garrick Ironmane",
+  "type": "character",
+  "img": "modules/forbidden-caverns-archaia/assets/art/npc-garrick.webp",
+  "system": {
+    "details": {
+      "biography": "<p><strong>Proprietor of Garrick's Trade Goods &amp; Envoy of Citadel Silver.</strong> Stocks standard adventuring gear, dwarven weapons, and up to 3 suits of armor (no plate on hand; orders arrive in 2 days with cash upfront, or 1 day rush at +25% markup).</p>",
+      "alignment": "Lawful",
+      "class": "Dwarf",
+      "level": 0
+    },
+    "hp": { "value": 5, "max": 5 },
+    "ac": { "value": 8, "mod": 0 },
+    "aac": { "value": 11, "mod": 0 },
+    "thac0": { "value": 20, "bba": -1 },
+    "scores": {
+      "str": { "value": 16 },
+      "int": { "value": 14 },
+      "wis": { "value": 13 },
+      "dex": { "value": 16 },
+      "con": { "value": 17 },
+      "cha": { "value": 10 }
+    }
+  },
+  "items": [
+    {
+      "name": "Warhammer",
+      "type": "weapon",
+      "system": {
+        "damage": "1d6",
+        "bonus": 0,
+        "melee": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "[Hexcrawl] Subtable 4.5: Motivation Type",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 1], "text": "Slaves ([[/r 1d8+4]])" },
+    { "type": "text", "weight": 1, "range": [2, 2], "text": "Dead bodies and organic waste (en route to the Great Henge)" },
+    { "type": "text", "weight": 1, "range": [3, 3], "text": "Food — Roll on <em>Subtable 4.6: Random Patrol Motivation</em>." },
+    { "type": "text", "weight": 1, "range": [4, 4], "text": "Liquid in barrels ([[/r 1d6]]): 1–4 Water, 5–6 Mead." },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "Weapons — Roll on <em>Subtable 4.6: Random Patrol Motivation</em>." },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "Coin — Roll on <em>Subtable 4.6: Random Patrol Motivation</em>." }
+  ]
+}

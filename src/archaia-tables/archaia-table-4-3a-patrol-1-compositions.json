@@ -1,0 +1,45 @@
+{
+  "name": "[Hexcrawl] Subtable 4.3A: Tribal Patrol I Compositions",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "description": "<p><strong>Ammunition Note:</strong> Slings have 10 stones; short/longbows have 12 arrows; crossbows have 8 bolts; javelins are carried in sets of 3.</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [1, 1],
+      "text": "<p><strong>[1] Patrol I Composition:</strong></p><ul><li><strong>Kobolds (6):</strong> HP 1, 2x2, 3, 2x4 | Shortsword &amp; Javelin</li><li><strong>Froglings (6):</strong> HP 3x2, 3, 2x6 | Spear &amp; Net</li><li><strong>Goblins (6):</strong> HP 3x2, 3, 2x7 | Scimitar</li><li><strong>Orcs (4):</strong> HP 2, 3, 2x5 | Scimitar &amp; Shield</li><li><strong>Dervishes (4):</strong> HP 4, 5, 6, 8 | Scimitar</li><li><strong>Fanged Legion (4):</strong> 2xL1 (8 HP), 1xL2 (15 HP), 1xL3 (22 HP) | Scimitar, Shield, Light Crossbow</li></ul>"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "text": "<p><strong>[2] Patrol I Composition (+ Roll Subtable 4.4: Special):</strong></p><ul><li><strong>Kobolds (6):</strong> HP 2x1, 2x2, 2x4 | Shortsword &amp; Spear</li><li><strong>Froglings (6):</strong> HP 2x2, 3x3, 7 | Spear &amp; Shield</li><li><strong>Goblins (6):</strong> HP 2x2, 4, 5, 2x6 | Scimitar &amp; Sling</li><li><strong>Orcs (4):</strong> HP 5, 2x6, 8 | Spear &amp; Shield</li><li><strong>Dervishes (4):</strong> HP 3, 2x4, 6 | Scimitar &amp; Buckler Shield</li><li><strong>Fanged Legion (4):</strong> 2xL1 (8 HP), 2xL2 (15 HP) | Scimitar, Shield, Light Crossbow</li></ul>"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "text": "<p><strong>[3] Patrol I Composition:</strong></p><ul><li><strong>Kobolds (8):</strong> HP 2, 3x2, 4x4 | Shortsword &amp; Thatch Shield</li><li><strong>Froglings (8):</strong> HP 2x2, 3, 2x4, 2x5, 7 | Club &amp; Sling</li><li><strong>Goblins (8):</strong> HP 4x2, 3, 4, 5, 6 | Scimitar &amp; Shortbow</li><li><strong>Orcs (6):</strong> HP 3x2, 2x5, 6 | Crossbow &amp; Shortsword</li><li><strong>Dervishes (6):</strong> HP 3, 4, 5, 3x7 | Scimitar &amp; Shortbow</li><li><strong>Fanged Legion (6):</strong> 4xL1 (8 HP), 1xL2 (15 HP), 1xL3 (22 HP) | Scimitar, Shield, Heavy Crossbow</li></ul>"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "text": "<p><strong>[4] Patrol I Composition (+ Roll Subtable 4.4: Special):</strong></p><ul><li><strong>Kobolds (8):</strong> HP 1, 5x2, 2x3 | Spiked Club &amp; Thatch Shield</li><li><strong>Froglings (8):</strong> HP 2x4, 2x3, 2x5, 6, 7 | Spear &amp; Sling</li><li><strong>Goblins (8):</strong> HP 2x2, 2x4, 2x6, 2x7 | Club &amp; Shield</li><li><strong>Orcs (6):</strong> HP 2, 2x3, 2x5, 8 | Scimitar &amp; Hand Axe</li><li><strong>Dervishes (6):</strong> HP 2, 4, 2x5, 7, 8 | Shortsword &amp; Shortbow</li><li><strong>Fanged Legion (6):</strong> 4xL2 (15 HP), 2xL3 (22 HP) | Spear, Shield, Light Crossbow</li></ul>"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "text": "<p><strong>[5] Patrol I Composition:</strong></p><ul><li><strong>Kobolds (10):</strong> HP 2x1, 3x2, 2x3, 1x4, 2x[[/r 1d4]] | Javelins &amp; Dagger</li><li><strong>Froglings (10):</strong> HP 1x3, 3x4, 2x5, 2x6, 2x7 | Club &amp; Net</li><li><strong>Goblins (10):</strong> HP 2x2, 2x3, 2x4, 2x5, 6, 7 | Spear &amp; Buckler Shield</li><li><strong>Orcs (8):</strong> HP 2x2, 2x3, 3x4, 6 | Scimitar &amp; Shortbow</li><li><strong>Dervishes (8):</strong> HP 2, 2x3, 2x5, 6, 7, 8 | Spear &amp; Buckler Shield</li><li><strong>Fanged Legion (8):</strong> 5xL2 (15 HP), 3xL3 (22 HP) | Spear, Shield, Light Crossbow</li></ul>"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "text": "<p><strong>[6] Patrol I Composition (+ Roll Subtable 4.4: Special):</strong></p><ul><li><strong>Kobolds (10):</strong> HP 4x1, 2x2, 2x3, 2x4 | Spear</li><li><strong>Froglings (10):</strong> HP 3x2, 3x3, 2x4, 5, 7 | Club &amp; Javelins</li><li><strong>Goblins (10):</strong> HP 2, 2x3, 4x4, 3x6 | Club, Shield, and Sling</li><li><strong>Orcs (8):</strong> HP 2, 3, 4, 2x6, 2x7, 8 | Spear &amp; Dagger</li><li><strong>Dervishes (8):</strong> HP 2x2, 4, 2x6, 3x8 | Scimitar &amp; Spear</li><li><strong>Fanged Legion (8):</strong> 4xL2 (15 HP), 4xL3 (22 HP) | Spear, Shield, Heavy Crossbow</li></ul>"
+    }
+  ]
+}

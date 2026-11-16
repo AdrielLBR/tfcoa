@@ -1,0 +1,36 @@
+{
+  "name": "Skye the Barmaid",
+  "type": "character",
+  "img": "modules/forbidden-caverns-archaia/assets/art/npc-skye.webp",
+  "system": {
+    "details": {
+      "biography": "<p><strong>Barmaid at The Saucy Tart.</strong> Niece of Cravos Blackburn and sister to Ivanna. Spirited and flirtatious, with a 50% chance of being noticeably drunk during her evening shift.</p>",
+      "alignment": "Chaotic",
+      "class": "Normal Human",
+      "level": 0
+    },
+    "hp": { "value": 2, "max": 2 },
+    "ac": { "value": 8, "mod": 0 },
+    "aac": { "value": 11, "mod": 0 },
+    "thac0": { "value": 20, "bba": -1 },
+    "scores": {
+      "str": { "value": 13 },
+      "int": { "value": 12 },
+      "wis": { "value": 11 },
+      "dex": { "value": 16 },
+      "con": { "value": 15 },
+      "cha": { "value": 16 }
+    }
+  },
+  "items": [
+    {
+      "name": "Serving Platter",
+      "type": "weapon",
+      "system": {
+        "damage": "1d2",
+        "bonus": 0,
+        "melee": true
+      }
+    }
+  ]
+}

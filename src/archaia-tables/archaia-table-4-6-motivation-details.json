@@ -1,0 +1,12 @@
+{
+  "name": "[Hexcrawl] Subtable 4.6: Random Patrol Motivation Details",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 1], "text": "<strong>Food:</strong> Rice | <strong>Weapons:</strong> Broadswords ([[/r 1d4*10]]) | <strong>Coin:</strong> [[/r 1d6+1d100]] gp, [[/r 1d4+1d100]] sp | <strong>Carried in:</strong> Chests ([[/r 1d4+1]])" },
+    { "type": "text", "weight": 1, "range": [2, 2], "text": "<strong>Food:</strong> Grain | <strong>Weapons:</strong> Wooden shields ([[/r 1d4*10]]) | <strong>Coin:</strong> [[/r 1d4+1d100]] gp, [[/r 1d4+1d100]] sp | <strong>Carried in:</strong> Sacks ([[/r 2d6+2]])" },
+    { "type": "text", "weight": 1, "range": [3, 3], "text": "<strong>Food:</strong> Axe Beak legs | <strong>Weapons:</strong> Bows and arrows ([[/r 1d4*10]]) | <strong>Coin:</strong> [[/r 1d4+1d100]] gp, [[/r 1d6+1d100]] sp | <strong>Carried in:</strong> Wooden crates ([[/r 2d4]])" },
+    { "type": "text", "weight": 1, "range": [4, 4], "text": "<strong>Food:</strong> Dinosaur steaks | <strong>Weapons:</strong> Scimitars ([[/r 1d4*10]]) | <strong>Coin:</strong> [[/r 1d2+1d100]] gp, [[/r 1d8+1d100]] sp | <strong>Carried in:</strong> Barrels ([[/r 2d4]])" }
+  ]
+}

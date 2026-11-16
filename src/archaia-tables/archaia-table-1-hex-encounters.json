@@ -1,0 +1,13 @@
+{
+  "name": "[Hexcrawl] Table 1: Archaia Random Hex Encounters",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 4], "text": "<strong>Empty:</strong> No encounter in this hex." },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "<strong>Monster:</strong> Roll on <em>Table 1.1: Archaia Random Monsters</em>." },
+    { "type": "text", "weight": 1, "range": [6, 7], "text": "<strong>Special Patrol:</strong> Roll on <em>Table 4.1: Tribal Patrol and Motivation</em>." },
+    { "type": "text", "weight": 1, "range": [8, 9], "text": "<strong>Hazard:</strong> Roll on <em>Table 2.1: Archaia Random Hex Hazards</em>." },
+    { "type": "text", "weight": 1, "range": [10, 10], "text": "<strong>Special:</strong> Roll on <em>Table 3.1: Archaia Random Hex Specials</em>." }
+  ]
+}

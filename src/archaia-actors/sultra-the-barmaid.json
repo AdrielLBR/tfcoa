@@ -1,0 +1,36 @@
+{
+  "name": "Sultra the Barmaid",
+  "type": "character",
+  "img": "modules/forbidden-caverns-archaia/assets/art/npc-sultra.webp",
+  "system": {
+    "details": {
+      "biography": "<p><strong>Barmaid at The Saucy Tart.</strong> Quiet, observant, and composed. Secretly a former royal assistant and escaped slave from the southern realms.</p>",
+      "alignment": "Neutral",
+      "class": "Normal Human",
+      "level": 0
+    },
+    "hp": { "value": 2, "max": 2 },
+    "ac": { "value": 10, "mod": 0 },
+    "aac": { "value": 9, "mod": 0 },
+    "thac0": { "value": 20, "bba": -1 },
+    "scores": {
+      "str": { "value": 13 },
+      "int": { "value": 10 },
+      "wis": { "value": 8 },
+      "dex": { "value": 10 },
+      "con": { "value": 13 },
+      "cha": { "value": 15 }
+    }
+  },
+  "items": [
+    {
+      "name": "Serving Platter",
+      "type": "weapon",
+      "system": {
+        "damage": "1d2",
+        "bonus": 0,
+        "melee": true
+      }
+    }
+  ]
+}

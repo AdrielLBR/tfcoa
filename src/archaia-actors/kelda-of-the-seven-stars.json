@@ -1,0 +1,36 @@
+{
+  "name": "Kelda of the Seven-Stars",
+  "type": "character",
+  "img": "modules/forbidden-caverns-archaia/assets/art/npc-kelda.webp",
+  "system": {
+    "details": {
+      "biography": "<p><strong>Grand Magus of The Temple of Seven Stars (Arcantryl).</strong> Scholarly leader of Eastdale's arcane-clerical order and keeper of the largest library in Middenmark.</p><p><strong>Spells:</strong> Cleric (3/3/2) &amp; Magic-User (3/2/2/1).</p><p><strong>Magic Items:</strong> Bracers of Defense AC 4, Ring of Protection +1, Cloak of Protection +1.</p>",
+      "alignment": "Neutral",
+      "class": "Cleric / Magic-User",
+      "level": 7
+    },
+    "hp": { "value": 28, "max": 28 },
+    "ac": { "value": 2, "mod": 0 },
+    "aac": { "value": 17, "mod": 0 },
+    "thac0": { "value": 17, "bba": 2 },
+    "scores": {
+      "str": { "value": 9 },
+      "int": { "value": 17 },
+      "wis": { "value": 15 },
+      "dex": { "value": 12 },
+      "con": { "value": 12 },
+      "cha": { "value": 14 }
+    }
+  },
+  "items": [
+    {
+      "name": "Quarterstaff",
+      "type": "weapon",
+      "system": {
+        "damage": "1d6",
+        "bonus": 0,
+        "melee": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "[Hexcrawl] The Forbidden Zone Random Encounters",
+  "formula": "1d12",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    { "type": "text", "weight": 1, "range": [1, 2], "text": "<strong>Tribal Patrol:</strong> Roll on Table 4.1 (Tribal Patrol and Motivation)." },
+    { "type": "text", "weight": 1, "range": [3, 4], "text": "<strong>Monster:</strong> Roll on Table 1.1 (Archaia Random Monsters)." },
+    { "type": "text", "weight": 1, "range": [5, 5], "text": "<strong>Sandstorm:</strong> Visibility 0; 80% chance party veers off course; movement 1/4 unless halted." },
+    { "type": "text", "weight": 1, "range": [6, 6], "text": "<strong>Earthquake:</strong> Dexterity check or fall prone. 4-in-6 chance of fissure nearby; 1-in-6 right beneath PCs." },
+    { "type": "text", "weight": 1, "range": [7, 7], "text": "<strong>Acidic Rain:</strong> Lasts [[/r 2d4]] rounds; deals [[/r 1d4]] dmg/round per character level to exposed flesh (metal/cloth unaffected)." },
+    { "type": "text", "weight": 1, "range": [8, 8], "text": "<strong>Forbidden Zone Scarecrow:</strong> 8-ft tall effigy of scrap metal, wood, and bones built by ([[/r 1d6]]): 1. Goblins, 2. Orcs, 3. Bugbears, 4. Gnolls, 5. Lizardmen, 6. Unknown." },
+    { "type": "text", "weight": 1, "range": [9, 9], "text": "<strong>Omen ([[/r 1d6]]):</strong> 1–3: Heads on Pikes (decapitated human/demi-human heads); 4–6: Pillar of Smoke 1 hex away in a random direction." },
+    { "type": "text", "weight": 1, "range": [10, 10], "text": "<strong>Temperature Change ([[/r 1d6]]):</strong> 1–3: Extreme Scorching Heat (as <em>Heat Metal</em>); 4–6: Freezing Rain/Snowstorm (as <em>Freeze Metal</em>). Lasts 10 hours; half movement." },
+    { "type": "text", "weight": 1, "range": [11, 11], "text": "<strong>Sinkhole:</strong> Constitution check to avoid sliding down; +1 cumulative penalty per round. Natural 20 sucks PC under immediately." },
+    { "type": "text", "weight": 1, "range": [12, 12], "text": "<strong>Insect Plague ([[/r 1d6]]):</strong> 1–3 Locusts, 4–6 Beetles. Dig in, cover up, or huddle with torches, or be scattered into a random adjacent hex." }
+  ]
+}
