@@ -2,6 +2,7 @@
   "id": "forbidden-caverns-archaia",
   "title": "The Forbidden Caverns of Archaia (OSE)",
   "description": "Complete megadungeon and hexcrawl module based on the work of Greg Gillespie, adapted for Old-School Essentials with original monochrome artwork.",
+  "manifest": "https://github.com/AdrielLBR/tfcoa/releases/download/1.0.0/module.json",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
