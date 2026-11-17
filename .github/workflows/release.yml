@@ -30,7 +30,7 @@ jobs:
         id: get_version
         run: |
           VERSION=${GITHUB_REF#refs/tags/v}
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
           jq --arg v "$VERSION" '.version = $v' module.json > module.tmp.json && mv module.tmp.json module.json
 
       - name: Create module.zip
@@ -41,7 +41,7 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          name: "Release v${{ env.VERSION }}"
+          name: "Release v${{ steps.get_version.outputs.version }}"
           draft: false
           prerelease: false
           files: |
