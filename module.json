@@ -1,7 +1,7 @@
 {
   "id": "tfcoa",
   "title": "The Forbidden Caverns of Archaia (OSE)",
-  "description": "Complete Old-School Essentials conversion module for The Forbidden Caverns of Archaia, featuring Eastdale Gazetteer, NPCs, Hexcrawl RollTables, Factions, and dungeon levels.",
+  "description": "Complete megadungeon and hexcrawl module based on the work of Greg Gillespie, adapted for Old-School Essentials with original monochrome artwork.",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
