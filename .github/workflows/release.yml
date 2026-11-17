@@ -1,0 +1,49 @@
+name: Build and Release Foundry VTT Module
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Foundry CLI
+        run: npm install
+
+      - name: Compile LevelDB Compendium Packs
+        run: npm run build:packs
+
+      - name: Update module.json version from Git Tag
+        id: get_version
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/v}
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          jq --arg v "$VERSION" '.version = $v' module.json > module.tmp.json && mv module.tmp.json module.json
+
+      - name: Create module.zip
+        run: |
+          mkdir -p dist
+          zip -r dist/module.zip module.json packs/ styles/ assets/ -x "*.DS_Store"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "Release v${{ env.VERSION }}"
+          draft: false
+          prerelease: false
+          files: |
+            module.json
+            dist/module.zip

@@ -1,9 +1,9 @@
 {
-  "name": "forbidden-caverns-archaia",
+  "name": "tfcoa",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build:packs": "fvtt package pack archaia-journals --in src/archaia-journals --out packs/archaia-journals && fvtt package pack archaia-actors --in src/archaia-actors --out packs/archaia-actors && fvtt package pack archaia-tables --in src/archaia-tables --out packs/archaia-tables"
+    "build:packs": "fvtt package pack archaia-journals --in src/archaia-journals --out packs/archaia-journals && fvtt package pack archaia-actors --in src/archaia-actors --out packs/archaia-actors && fvtt package pack archaia-tables --in src/archaia-tables --out packs/archaia-tables && fvtt package pack archaia-items --in src/archaia-items --out packs/archaia-items"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^0.2.2"

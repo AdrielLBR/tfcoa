@@ -1,23 +1,12 @@
 {
-  "id": "forbidden-caverns-archaia",
+  "id": "tfcoa",
   "title": "The Forbidden Caverns of Archaia (OSE)",
-  "description": "Complete megadungeon and hexcrawl module based on the work of Greg Gillespie, adapted for Old-School Essentials with original monochrome artwork.",
-  "manifest": "https://github.com/AdrielLBR/tfcoa/releases/download/1.0.0/module.json",
+  "description": "Complete Old-School Essentials conversion module for The Forbidden Caverns of Archaia, featuring Eastdale Gazetteer, NPCs, Hexcrawl RollTables, Factions, and dungeon levels.",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
   },
-  "authors": [
-    {
-      "name": "AdrielLBR (Foundry VTT Adaptation)",
-      "flags": {}
-    },
-    {
-      "name": "Greg Gillespie (Original Author)",
-      "flags": {}
-    }
-  ],
   "relationships": {
     "systems": [
       {
@@ -29,6 +18,15 @@
       }
     ]
   },
+  "authors": [
+    {
+      "name": "AdrielLBR (Foundry VTT Adaptation)",
+      "url": "https://github.com/AdrielLBR"
+    }
+  ],
+  "styles": [
+    "styles/archaia-osr.css"
+  ],
   "packs": [
     {
       "name": "archaia-journals",
@@ -43,20 +41,9 @@
     },
     {
       "name": "archaia-actors",
-      "label": "Archaia: Bestiary, Tribes & NPCs",
+      "label": "Archaia: NPCs & Bestiary",
       "path": "packs/archaia-actors",
       "type": "Actor",
-      "system": "ose",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "archaia-items",
-      "label": "Archaia: Magic Items, Relics & Archomancy",
-      "path": "packs/archaia-items",
-      "type": "Item",
       "system": "ose",
       "ownership": {
         "PLAYER": "NONE",
@@ -75,10 +62,10 @@
       }
     },
     {
-      "name": "archaia-scenes",
-      "label": "Archaia: Maps & Dungeons",
-      "path": "packs/archaia-scenes",
-      "type": "Scene",
+      "name": "archaia-items",
+      "label": "Archaia: Magic Items & Spells",
+      "path": "packs/archaia-items",
+      "type": "Item",
       "system": "ose",
       "ownership": {
         "PLAYER": "NONE",
@@ -86,21 +73,7 @@
       }
     }
   ],
-  "packFolders": [
-    {
-      "name": "The Forbidden Caverns of Archaia",
-      "sorting": "m",
-      "color": "#1a1a1a",
-      "packs": [
-        "archaia-journals",
-        "archaia-scenes",
-        "archaia-actors",
-        "archaia-items",
-        "archaia-tables"
-      ]
-    }
-  ],
-  "styles": [
-    "styles/archaia-osr.css"
-  ]
+  "url": "https://github.com/AdrielLBR/tfcoa",
+  "manifest": "https://github.com/AdrielLBR/tfcoa/releases/latest/download/module.json",
+  "download": "https://github.com/AdrielLBR/tfcoa/releases/latest/download/module.zip"
 }
