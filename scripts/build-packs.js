@@ -7,13 +7,15 @@ function makeId(seed) {
   return crypto.createHash('md5').update(seed).digest('hex').slice(0, 16);
 }
 
+const BUILDER_ID = 'tfcoaBuilder0000';
+
 const DEFAULT_STATS = {
   coreVersion: '14.370',
   systemId: 'ose',
   systemVersion: '3.3.0',
-  createdTime: 1794976722267,
-  modifiedTime: 1794976722268,
-  lastModifiedBy: 'tfcoaBuilder00000',
+  createdTime: 1795003581160,
+  modifiedTime: 1795003581162,
+  lastModifiedBy: BUILDER_ID,
   compendiumSource: null,
   duplicateSource: null,
   exportSource: null
@@ -54,8 +56,8 @@ async function build() {
         if (pack.prefix === 'journals') {
           doc.folder = null;
           doc.categories = Array.isArray(doc.categories) ? doc.categories : [];
-          doc.sort = (count + 1) * 100000;
-          doc.ownership = { default: 0 };
+          doc.sort = count * 100000;
+          doc.ownership = { default: 0, [BUILDER_ID]: 3 };
           doc.flags = doc.flags || {};
         }
 
@@ -79,8 +81,7 @@ async function build() {
                 image: {},
                 text: {
                   format: 1,
-                  content: sub.text?.content || '',
-                  markdown: null
+                  content: sub.text?.content || ''
                 },
                 video: {
                   controls: true,
@@ -88,7 +89,7 @@ async function build() {
                 },
                 src: null,
                 system: {},
-                sort: (idx + 1) * 100000,
+                sort: idx * 100000,
                 ownership: { default: -1 },
                 flags: {},
                 _stats: { ...DEFAULT_STATS }
