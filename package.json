@@ -1,11 +1,11 @@
 {
   "name": "tfcoa",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "private": true,
   "scripts": {
     "build:packs": "node scripts/build-packs.js"
   },
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "latest"
+    "classic-level": "^2.0.0"
   }
 }
