@@ -33,7 +33,6 @@
       "label": "Archaia: Journals, Lore & Guides",
       "path": "packs/archaia-journals",
       "type": "JournalEntry",
-      "system": "ose",
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
@@ -55,7 +54,6 @@
       "label": "Archaia: Random Tables & Rumors",
       "path": "packs/archaia-tables",
       "type": "RollTable",
-      "system": "ose",
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
