@@ -22,7 +22,6 @@ const DEFAULT_STATS = {
 };
 
 const PACKS = [
-  { name: 'archaia-journals', prefix: 'journals', subKey: 'pages',   subPrefix: 'journals.pages' },
   { name: 'archaia-actors',   prefix: 'actors',   subKey: 'items',   subPrefix: 'actors.items' },
   { name: 'archaia-tables',   prefix: 'tables',   subKey: 'results', subPrefix: 'tables.results' },
   { name: 'archaia-items',    prefix: 'items',    subKey: null,      subPrefix: null }

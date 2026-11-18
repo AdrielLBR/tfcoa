@@ -1,5 +1,6 @@
 node_modules/
-packs/
+packs/*
+!packs/archaia-journals/
 .tmp-src/
 *.zip
 .DS_Store
