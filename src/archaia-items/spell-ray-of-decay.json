@@ -1,0 +1,12 @@
+{
+  "name": "Ray of Decay",
+  "type": "spell",
+  "img": "icons/magic/unholy/beam-ringed-impact-purple.webp",
+  "system": {
+    "lvl": 2,
+    "class": "Cleric (Impurax)",
+    "duration": "2 rounds",
+    "range": "40'",
+    "description": "<p>Fires a sickly green beam at one target in line of sight, dealing <strong>[[/r 1d8]] damage</strong> (Save vs. Poison for half). If the initial save fails, the victim takes <strong>[[/r 1d4]] additional rot damage</strong> on the next round; if the initial save succeeds, they take <strong>[[/r 1d2]] damage</strong> on the next round.</p>"
+  }
+}

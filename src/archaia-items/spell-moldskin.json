@@ -1,0 +1,12 @@
+{
+  "name": "Moldskin",
+  "type": "spell",
+  "img": "icons/magic/defensive/armor-stone-skin.webp",
+  "system": {
+    "lvl": 2,
+    "class": "Cleric (Impurax)",
+    "duration": "4 rounds + 1 round/level",
+    "range": "Touch",
+    "description": "<p>Coats a willing target in leathery fungal growth, improving AC by 1 (-1 DAC / +1 AAC) and granting <strong>+1 to all saving throws</strong>. Covers the face, rendering the bearer immune to spores, molds, gases, drowning, oxygen deprivation, and fungi—and preventing plant/fungus monsters from attacking them.</p>"
+  }
+}

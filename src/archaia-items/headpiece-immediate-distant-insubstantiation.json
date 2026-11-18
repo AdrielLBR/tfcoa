@@ -1,0 +1,9 @@
+{
+  "name": "Headpiece of Immediate Distant Insubstantiation",
+  "type": "item",
+  "img": "icons/weapons/staves/staff-forked-crystal.webp",
+  "system": {
+    "cost": 800,
+    "description": "<p><strong>Value:</strong> 800 gp | <strong>Hengegate Activation:</strong> 1/day (5 charges remaining).</p><p><strong>Primary Property:</strong> Forked crystal finial that fires a beam once per day at a single man-sized enemy; on a hit (Save vs. Spells negates), teleports the target directly to any Hengegate of the bearer's choosing.</p>"
+  }
+}

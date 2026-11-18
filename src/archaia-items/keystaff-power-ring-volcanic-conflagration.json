@@ -1,0 +1,8 @@
+{
+  "name": "Power Ring: Volcanic Conflagration",
+  "type": "item",
+  "img": "icons/equipment/finger/ring-gem-red-gold.webp",
+  "system": {
+    "description": "<p><strong>Slot 3 on an Ebon Staff (requires Embarkation &amp; Destination Rings).</strong> Bears the <em>Fire</em> rune. Elevates the Ebon Staff to a <strong>+4 magic weapon</strong>, adds <em>Burning Hands</em>, <em>Fireball</em>, and <em>Flame Arrow</em> (1/day each at 6th caster level, if the wielder can cast spells of that level), and allows the staff to act as a <em>Wand of Fiery Burning</em> once per day.</p>"
+  }
+}

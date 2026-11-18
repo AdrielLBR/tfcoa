@@ -1,0 +1,12 @@
+{
+  "name": "Fungus Shape",
+  "type": "spell",
+  "img": "icons/consumables/mushrooms/mushroom-spotted-red-white.webp",
+  "system": {
+    "lvl": 3,
+    "class": "Cleric (Impurax)",
+    "duration": "6 turns + 1 turn/level",
+    "range": "Self",
+    "description": "<p>Transforms the caster and all worn/carried gear into a large mushroom or patch of multi-colored mold indistinguishable from natural fungi. The caster retains full sensory awareness and may dismiss the form at any time, attacking or acting on the same round.</p>"
+  }
+}

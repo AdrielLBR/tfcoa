@@ -1,0 +1,8 @@
+{
+  "name": "Sferenop's Shimmering Sea Shell",
+  "type": "item",
+  "img": "icons/commodities/biological/shell-spiral-pink.webp",
+  "system": {
+    "description": "<p>Functions as a <em>Rod of Absorption</em>, absorbing up to <strong>12 spell levels</strong> before shattering and losing its magic. When pressed against a door, increases the bearer's chance to <strong>Hear Noise by +2 on 1d6</strong>.</p>"
+  }
+}

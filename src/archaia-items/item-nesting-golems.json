@@ -1,0 +1,8 @@
+{
+  "name": "Nesting Golems (Set)",
+  "type": "item",
+  "img": "icons/sundries/misc/figure-wooden-painted.webp",
+  "system": {
+    "description": "<p>A set of [[/r 1d4+2]] rough-hewn wooden nesting dolls. Separating a doll, placing it on the ground, and speaking the command word grows it into an obedient construct until destroyed. Roll [[/r 1d6]] for each doll's size and stats:</p><ul><li><strong>1:</strong> 3' tall — 1 HD (5 HP), AC 7 (AAC 12), #AT 2 (1d4/1d4).</li><li><strong>2:</strong> 4' tall — 2 HD (10 HP), AC 6 (AAC 13), #AT 2 (1d4+1/1d4+1).</li><li><strong>3:</strong> 5' tall — 3 HD (15 HP), AC 5 (AAC 14), #AT 2 (1d6/1d6).</li><li><strong>4:</strong> 6' tall — 4 HD (20 HP), AC 4 (AAC 15), #AT 2 (1d8/1d8).</li><li><strong>5:</strong> 7' tall — 5 HD (25 HP), AC 3 (AAC 16), #AT 2 (1d10/1d10).</li><li><strong>6:</strong> 8' tall — 6 HD (30 HP), AC 2 (AAC 17), #AT 2 (2d6/2d6).</li></ul>"
+  }
+}

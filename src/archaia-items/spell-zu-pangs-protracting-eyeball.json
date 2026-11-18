@@ -1,0 +1,12 @@
+{
+  "name": "Zu-Pang's Protracting Eyeball",
+  "type": "spell",
+  "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+  "system": {
+    "lvl": 1,
+    "class": "Magic-User",
+    "duration": "1 round/level",
+    "range": "30' + 10'/level",
+    "description": "<p>Stretches the caster's eyeball silently from its socket on an optic stalk to scout corners and doors (stacks with <em>Infravision</em>). May be retracted at will. If the optic stalk is severed, the caster permanently loses the eye and <strong>[[/r 1d3]] HP</strong>.</p>"
+  }
+}

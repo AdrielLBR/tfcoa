@@ -1,0 +1,12 @@
+{
+  "name": "Grabthar's Hammer",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-war-runed-blue.webp",
+  "system": {
+    "damage": "1d6+1",
+    "bonus": 1,
+    "melee": true,
+    "missile": true,
+    "description": "<p>Cylindrical dwarven warhammer marked with Grabthar's rune (eye within a diamond). Normally functions as a <strong>Warhammer +1 (1d6+1)</strong>.</p><p><strong>Paired with Grabthar's Gauntlets of Power:</strong> Runes glow pale blue; base damage increases to <strong>1d10</strong> and enchantment rises to <strong>+2 to hit / +3 damage</strong> (stacking with the Gauntlets for <strong>+5 to hit / +10 damage</strong>). May also be thrown up to 60' and returns to the wielder's hand in the same round.</p>"
+  }
+}

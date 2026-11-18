@@ -1,0 +1,20 @@
+{
+  "name": "03. Rules: Archomancy (Archaian Magic System)",
+  "ownership": {
+    "default": 0
+  },
+  "pages": [
+    {
+      "name": "Archomancy Rules & Spell Points",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1 class=\"archaia-room-header\">Archomancy: The Archaian Magic System</h1>\n<p>Archomancy is a variant arcane magic system practiced by the ancient Archaians and the undead Archons of the Trium. A magic-user or illusionist of 5th level or higher who speaks Ancient Archaian may learn its precepts from ancient Archaian texts or from the <em>Mystic Jewel of Koweewah</em> (requires a successful Intelligence check, or 4–8 weeks of devoted study).</p>\n\n<h2 class=\"archaia-room-header\">Calculating Spell Points</h2>\n<p>An Archomancer remains bound by standard daily spell slots per level, but converts their total daily spell capacity into a pool of <strong>Spell Points</strong> equal to the sum of <code>(Spells per Day &times; Spell Level)</code> across all spell levels they can cast.</p>\n\n<table>\n  <thead>\n    <tr>\n      <th>Spell Level</th>\n      <th>Example (10th-Level MU: 3/3/3/3/2)</th>\n      <th>Spell Points</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr><td>1st</td><td>3 &times; 1</td><td>3</td></tr>\n    <tr><td>2nd</td><td>3 &times; 2</td><td>6</td></tr>\n    <tr><td>3rd</td><td>3 &times; 3</td><td>9</td></tr>\n    <tr><td>4th</td><td>3 &times; 4</td><td>12</td></tr>\n    <tr><td>5th</td><td>2 &times; 5</td><td>10</td></tr>\n    <tr><td><strong>Total Pool</strong></td><td>—</td><td><strong>40 Spell Points</strong></td></tr>\n  </tbody>\n</table>\n\n<p>Casting any standard spell deducts its <strong>Spell Level</strong> in Spell Points (e.g., casting <em>Fireball</em> costs 3 Spell Points and expends one 3rd-level slot).</p>\n\n<h2 class=\"archaia-room-header\">Spell Point Metamagic Effects</h2>\n<ul>\n  <li><strong>Cast Instantly (20 Spell Points):</strong> The spell resolves as the very first action in the combat round regardless of initiative. The caster cannot cast a spell on the following round.</li>\n  <li><strong>Max Dice (50 Spell Points):</strong> Deals maximum damage per die up to 10 dice (any dice beyond 10 are rolled normally). The caster cannot cast a spell for the next two rounds.</li>\n  <li><strong>Extra Dice (5 Spell Points / die):</strong> Adds +1 damage die to the spell.</li>\n  <li><strong>Broaden Effect (5 Spell Points / 10 ft.):</strong> Expands the spell's area of effect by 10 feet.</li>\n  <li><strong>Lengthen Effect (5 Spell Points / round):</strong> Extends the spell's duration by 1 round.</li>\n  <li><strong>Dual-Casting (25 Spell Points):</strong> Cast two spells simultaneously (must be declared prior to initiative). Spells between levels 1–4 must be at least 2 levels apart; spells between levels 5–9 must be 3 levels apart; spells spanning 1–9 must be 4 levels apart.</li>\n</ul>\n\n<h2 class=\"archaia-room-header\">Overchanneling (Negative Spell Points)</h2>\n<p>Casters may push their Spell Point pool into negative values down to a maximum of <strong>-10</strong>. Each negative point permanently drains <strong>2 hit points</strong> and <strong>1 point from every ability score</strong>. If any ability score drops below 0, the caster detonates in a burst of raw arcane energy, creating a permanent <strong>300 ft. &times; 300 ft. Magic Dead zone</strong>.</p>"
+      }
+    }
+  ]
+}

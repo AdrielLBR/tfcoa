@@ -1,0 +1,12 @@
+{
+  "name": "Aztazibar's Acrid Finger",
+  "type": "spell",
+  "img": "icons/magic/acid/projectile-beams-salvo-green.webp",
+  "system": {
+    "lvl": 1,
+    "class": "Magic-User",
+    "duration": "1 round/level",
+    "range": "Special",
+    "description": "<p>Projects a continuous gout of green acid from the caster's index finger, dealing <strong>[[/r 1d4+1]] acid damage per round</strong>. Hits automatically within 20'; targets beyond 20' require a successful ranged attack roll. Requires unobstructed line of sight and full concentration (caster may take no other actions).</p>"
+  }
+}

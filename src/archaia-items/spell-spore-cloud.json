@@ -1,0 +1,12 @@
+{
+  "name": "Spore Cloud",
+  "type": "spell",
+  "img": "icons/magic/air/fog-gas-smoke-dense-green.webp",
+  "system": {
+    "lvl": 2,
+    "class": "Cleric (Impurax)",
+    "duration": "1 turn + 1 round/level",
+    "range": "60'",
+    "description": "<p>Creates a 30' &times; 30' spore haze that renders living creatures inside helpless with nausea while inside and for [[/r 1d4+1]] rounds after exiting (Save vs. Poison upon leaving negates the lingering nausea).</p>"
+  }
+}

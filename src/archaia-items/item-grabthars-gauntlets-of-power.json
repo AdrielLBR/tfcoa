@@ -1,0 +1,8 @@
+{
+  "name": "Grabthar's Gauntlets of Power",
+  "type": "item",
+  "img": "icons/equipment/hand/gauntlet-armored-steel-blue.webp",
+  "system": {
+    "description": "<p><strong>Fighter, Ranger, Paladin, or Cleric only.</strong> Marked with Grabthar's rune (an eye within a diamond; 75% chance any dwarf recognizes it). Both gauntlets must be worn together to function.</p><ul><li>Grants <strong>Strength 18</strong> (+3 to hit, +7 damage with melee or hurled weapons) and +100 lbs carrying capacity.</li><li><strong>Resonance:</strong> Runes glow pale blue when paired with <em>Grabthar's Hammer</em>, stacking bonuses for a combined <strong>+5 to hit / +10 damage</strong>.</li></ul>"
+  }
+}

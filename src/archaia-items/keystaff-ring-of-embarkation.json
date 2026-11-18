@@ -1,0 +1,9 @@
+{
+  "name": "Ring of Embarkation (Archinium)",
+  "type": "item",
+  "img": "icons/equipment/finger/ring-band-engraved-silver.webp",
+  "system": {
+    "cost": 800,
+    "description": "<p><strong>Slot 1 on an Ebon Staff.</strong> Forged from Archinium (worth 800 gp) and engraved with 3 Hengegate location runes. Must be turned to align the current origin Hengegate's rune with the Ebon Staff's indicator arrow.</p>"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Headpiece of the Broken Scarab",
+  "type": "item",
+  "img": "icons/commodities/treasure/brooch-scarab-jade.webp",
+  "system": {
+    "cost": 1000,
+    "description": "<p><strong>Value:</strong> 1,000 gp | <strong>Hengegate Activation:</strong> 2/week (13 charges remaining).</p><p><strong>Primary Property:</strong> Summons giant insects once per day as per <em>Summon Monster II</em> cast at 7th level.</p>"
+  }
+}

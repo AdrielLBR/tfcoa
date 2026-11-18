@@ -1,0 +1,9 @@
+{
+  "name": "Headpiece of the Cursed Incantation",
+  "type": "item",
+  "img": "icons/creatures/reptiles/serpent-coiled-white.webp",
+  "system": {
+    "cost": 700,
+    "description": "<p><strong>Value:</strong> 700 gp | <strong>Hengegate Activation:</strong> 2/day (10 charges remaining).</p><p><strong>Property:</strong> Two entwined white-gold snakes. All creatures passing through a Hengegate opened with this headpiece must pass a <strong>Save vs. Spells</strong> or be afflicted with <em>Cause Disease</em>.</p>"
+  }
+}

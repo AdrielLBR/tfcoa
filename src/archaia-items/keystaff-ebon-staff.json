@@ -1,0 +1,12 @@
+{
+  "name": "Archaian Ebon Staff",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-ornate-black.webp",
+  "system": {
+    "damage": "1d6+1",
+    "bonus": 1,
+    "melee": true,
+    "weight": 120,
+    "description": "<p><strong>Magic-User or Illusionist only.</strong> 6' cylindrical black metal pole with 3 ring indentations, an indicator arrow, and a triangular headpiece socket.</p><ul><li><strong>Bare Staff:</strong> +1 magic weapon (1d6+1).</li><li><strong>+ Ring of Embarkation:</strong> +2 magic weapon; casts <em>Magic Missile</em>, <em>Light</em>, and <em>Knock</em> (1/day each at 4th caster level).</li><li><strong>+ Ring of Destination:</strong> +3 magic weapon; also casts <em>Detect Invisibility</em>, <em>Ray of Enfeeblement</em>, and <em>Protection from Normal Missiles</em> (1/day each at 5th caster level).</li><li><strong>+ Power Ring &amp; Headpiece:</strong> Unlocks Hengegate teleportation and Power Ring spells.</li></ul>"
+  }
+}

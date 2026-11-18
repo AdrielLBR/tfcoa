@@ -1,0 +1,12 @@
+{
+  "name": "Mold to Moldmen",
+  "type": "spell",
+  "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+  "system": {
+    "lvl": 4,
+    "class": "Cleric (Impurax)",
+    "duration": "4 turns",
+    "range": "120'",
+    "description": "<p>Transforms surrounding vegetable matter into <strong>[[/r 2d4]] Moldmen (Vegepygmies)</strong> of [[/r 1d2]] HD that obey the caster's commands until the spell ends (when they flee at full speed).</p><p><strong>Moldmen Stats:</strong> AL N, MV 120' (40'), AC 4 (AAC 15), HD 1 or 2 (HP 6 or 10), #AT 1 (1d6), SV F1, ML 10.</p>"
+  }
+}

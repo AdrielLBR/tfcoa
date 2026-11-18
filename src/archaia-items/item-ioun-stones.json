@@ -1,0 +1,8 @@
+{
+  "name": "Ioun Stones (Archaian)",
+  "type": "item",
+  "img": "icons/commodities/gems/gem-faceted-radiant-blue.webp",
+  "system": {
+    "description": "<p>Small crystals (AC -4 [AAC 23], 10 HP) that orbit the bearer's head while active (10% chance any found stone is gray, burned out, and worthless):</p><ul><li><strong>Clear Ellipsoid:</strong> +5 Spell Points (see <em>Archomancy</em>).</li><li><strong>Light Green Sphere:</strong> +1 1st-level spell/day.</li><li><strong>Medium Green Sphere:</strong> +1 2nd-level spell/day.</li><li><strong>Dark Green Sphere:</strong> +1 3rd-level spell/day.</li><li><strong>Light Blue Prism:</strong> Cast <em>Cure Light Wounds</em> on self (1/day).</li><li><strong>Dark Blue Prism:</strong> Cast <em>Cure Serious Wounds</em> on self (1/day).</li><li><strong>Puce Spindle:</strong> Grants continuous <em>Read Languages</em>.</li></ul>"
+  }
+}

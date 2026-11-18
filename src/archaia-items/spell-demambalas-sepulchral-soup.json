@@ -1,0 +1,12 @@
+{
+  "name": "Demambala's Sepulchral Soup",
+  "type": "spell",
+  "img": "icons/consumables/potions/cauldron-bubbling-green.webp",
+  "system": {
+    "lvl": 3,
+    "class": "Magic-User",
+    "duration": "3 turns",
+    "range": "1 Target",
+    "description": "<p>Brews a foul broth from animated skeleton bones and wight flesh. Grants immunity to a <strong>single energy/level drain attack</strong> from any undead up to and including a vampire. Upon drinking, the imbiber must pass a <strong>Constitution check</strong> or vomit violently for [[/r 1d4]] + 1 round per caster level (indicating spell failure).</p>"
+  }
+}

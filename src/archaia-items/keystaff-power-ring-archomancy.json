@@ -1,0 +1,9 @@
+{
+  "name": "Power Ring: Archomancy",
+  "type": "item",
+  "img": "icons/equipment/finger/ring-runed-purple-gold.webp",
+  "system": {
+    "cost": 2000,
+    "description": "<p><strong>Slot 3 on an Ebon Staff (requires Embarkation &amp; Destination Rings).</strong> Forged of Archinium (worth 2,000 gp) and inscribed with the rune of the <em>Archons of the Trium</em>. Grants <strong>+10 Spell Points</strong> to an Archomancer's daily pool.</p>"
+  }
+}

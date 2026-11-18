@@ -1,0 +1,9 @@
+{
+  "name": "The Burial Headpiece of the Ancients",
+  "type": "item",
+  "img": "icons/commodities/treasure/medallion-arch-silver.webp",
+  "system": {
+    "cost": 2000,
+    "description": "<p><strong>Value:</strong> 2,000 gp | <strong>Hengegate Activation:</strong> 1/day (5 charges remaining).</p><p><strong>Primary Property:</strong> Broad Archinium circle engraved with an Archaian Arch. Unlocks the <strong>Burial Vault of the Ancient Archaians</strong> (Hex O on the Archaia Hex Map) and provides two-way translation between the wielder's language and <em>Ancient Archaian</em> while held.</p>"
+  }
+}

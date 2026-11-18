@@ -1,0 +1,9 @@
+{
+  "name": "Headpiece of the Black Crystal Skull",
+  "type": "item",
+  "img": "icons/commodities/bones/skull-crystal-pink.webp",
+  "system": {
+    "cost": 1000,
+    "description": "<p><strong>Value:</strong> 1,000 gp | <strong>Hengegate Activation:</strong> 1/week (16 charges remaining).</p><p><strong>Primary Property:</strong> While attached to a complete Keystaff, allows the bearer to <em>Control Undead</em> as an evil cleric of the same level once per day. Undead are instinctively drawn to attack the bearer.</p>"
+  }
+}

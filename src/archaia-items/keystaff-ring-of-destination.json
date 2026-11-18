@@ -1,0 +1,9 @@
+{
+  "name": "Ring of Destination (Platinum)",
+  "type": "item",
+  "img": "icons/equipment/finger/ring-band-platinum.webp",
+  "system": {
+    "cost": 500,
+    "description": "<p><strong>Slot 2 on an Ebon Staff.</strong> Forged from Platinum (worth 500 gp) and engraved with 3 Hengegate location runes. Must be aligned with the target destination Hengegate's rune on the Ebon Staff's indicator arrow.</p>"
+  }
+}

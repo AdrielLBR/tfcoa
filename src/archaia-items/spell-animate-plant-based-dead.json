@@ -1,0 +1,12 @@
+{
+  "name": "Animate Plant-Based Dead",
+  "type": "spell",
+  "img": "icons/magic/nature/root-vine-entangle-foot-green.webp",
+  "system": {
+    "lvl": 3,
+    "class": "Cleric (Impurax)",
+    "duration": "Special",
+    "range": "60'",
+    "description": "<p>Calls upon grasses, vines, fungi, roots, and molds to grow within and animate skeletons and corpses within 60'. These animated dead are plant-based: they are <strong>not undead</strong>, cannot be turned by clerics, and take <strong>double damage from cold-based attacks</strong>.</p><p>Animates <strong>1 HD per caster level</strong> (e.g., 1 HD skeletons or 2 HD zombies, with standard HD, AC, and movement). They obey until destroyed, the caster dies, or dispelled via <em>Dispel Magic</em>.</p>"
+  }
+}

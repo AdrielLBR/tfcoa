@@ -1,0 +1,11 @@
+{
+  "name": "Ekintzart's Eldritch Scroll Tube",
+  "type": "weapon",
+  "img": "icons/sundries/scrolls/scroll-bound-bone-tan.webp",
+  "system": {
+    "damage": "1d6+1",
+    "bonus": 1,
+    "melee": true,
+    "description": "<p>Ornate carved bone tube holding up to 10 scrolls of any size; mentally produces whichever scroll the bearer desires upon grasping. Speaking the command word (<em>\"Ekintzart\"</em>, inscribed on a scroll inside) elongates it into a <strong>Quarterstaff +1</strong>.</p><p><strong>When Found:</strong> 20% chance of holding a 1st-level MU or Cleric scroll with [[/r 1d4+1]] spells, plus 10% chance of a random ward scroll.</p>"
+  }
+}

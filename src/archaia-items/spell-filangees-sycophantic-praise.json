@@ -1,0 +1,12 @@
+{
+  "name": "Filangee's Sycophantic Praise",
+  "type": "spell",
+  "img": "icons/magic/control/charm-pupil-eye-pink.webp",
+  "system": {
+    "lvl": 1,
+    "class": "Magic-User",
+    "duration": "Special",
+    "range": "Line of sight",
+    "description": "<p>Bombards a single monstrous humanoid (up to 5 HD) with effusive flattery. On a failed <strong>Save vs. Spells (-2 penalty)</strong>, functions as <em>Charm Person</em>. To maintain the charm, the caster must continue offering sickening flattery at least every other turn while the target is awake.</p>"
+  }
+}

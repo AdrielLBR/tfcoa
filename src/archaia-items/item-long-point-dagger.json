@@ -1,0 +1,12 @@
+{
+  "name": "Long Point Dagger +1",
+  "type": "weapon",
+  "img": "icons/weapons/daggers/dagger-stiletto-silver.webp",
+  "system": {
+    "damage": "1d4+1",
+    "bonus": 1,
+    "melee": true,
+    "missile": true,
+    "description": "<p>Elongated Archaian magical dagger (variants range from +1 to +5). Functions as a <strong>reach weapon</strong> in melee, allowing the wielder to strike enemies in the second rank.</p>"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Mystic Jewel of Koweewah",
+  "type": "item",
+  "img": "icons/commodities/gems/gem-oval-faceted-red.webp",
+  "system": {
+    "description": "<p>Hand-sized intelligent ruby housing a fragment of the Archaian mage Koweewah (AL N, INT 9, Ego/Psyche 11, Willpower 20; communicates in Ancient Archaian with Magic-Users, Illusionists, Clerics, or Druids).</p><ul><li><strong>Powers:</strong> Functions as a <em>Gem of True Seeing</em>, <em>Medallion of Thoughts</em> (60'), and <em>Wand of Wonder</em>, and detects gemstones within 30'.</li><li><strong>Tutor:</strong> Can teach <em>Ancient Archaian</em> and—to a 5th-level+ Magic-User or Illusionist—the rules of <em>Archomancy</em> (instant on a successful INT check, or 4–8 weeks of study).</li></ul>"
+  }
+}

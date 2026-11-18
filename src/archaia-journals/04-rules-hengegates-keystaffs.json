@@ -1,0 +1,32 @@
+{
+  "name": "04. Rules: Hengegates & Archaian Keystaffs",
+  "ownership": {
+    "default": 0
+  },
+  "pages": [
+    {
+      "name": "1. Assembly & Activation",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1 class=\"archaia-room-header\">The Hengegates and Keystaffs of Ancient Archaia</h1>\n<p>During the Golden Age of Archaia, the Archaians erected stone teleportation circles—<strong>Hengegates</strong>—across the Northern Reaches. Only magic-users or illusionists may wield an Archaian Keystaff. Grand Magus <em>Kelda of the Seven-Stars</em> and <em>Muirron the Magician</em> in Eastdale will pay <strong>100 to 1,000 gp</strong> for verified lore regarding henge magic.</p>\n\n<h2 class=\"archaia-room-header\">Required Components (In Exact Order)</h2>\n<ol>\n  <li><strong>Ebon Staff:</strong> 6-foot black metal shaft with three ring indentations and a triangular headpiece socket.</li>\n  <li><strong>Ring 1 — Ring of Embarkation:</strong> Made of Archinium (800 gp). Holds 3 location runes; must be aligned with the indicator arrow to match the <em>origin</em> Hengegate.</li>\n  <li><strong>Ring 2 — Ring of Destination:</strong> Made of Platinum (500 gp). Holds 3 location runes; must be aligned with the indicator arrow to match the <em>target</em> Hengegate.</li>\n  <li><strong>Ring 3 — Power Ring:</strong> Unlocks teleportation and grants combat spells (<em>Volcanic Conflagration</em>, <em>Icy Glaciate</em>, or <em>Archomancy</em>).</li>\n  <li><strong>Headpiece:</strong> Inserted into the top triangular slot; governs teleportation frequency and remaining charges.</li>\n</ol>\n\n<h2 class=\"archaia-room-header\">Hengegate Location Runes</h2>\n<table>\n  <thead>\n    <tr>\n      <th>Rune Code</th>\n      <th>Hengegate Location</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr><td><strong>HG1</strong></td><td>Dragon's Teeth Henge (The Forbidden Zone)</td></tr>\n    <tr><td><strong>HG2</strong></td><td>Southwestern Gate (Archaia)</td></tr>\n    <tr><td><strong>HG3</strong></td><td>Southeastern Gate (Archaia)</td></tr>\n    <tr><td><strong>HG4</strong></td><td>The Great Henge (Archaia)</td></tr>\n    <tr><td><strong>HG5</strong></td><td>Northern Gate (Archaia)</td></tr>\n    <tr><td><strong>HG6</strong></td><td>Hell-Fire Furnace</td></tr>\n    <tr><td><strong>HG7</strong></td><td>Darkwood Forest (Location Unknown)</td></tr>\n    <tr><td><strong>HG8</strong></td><td>The Secret Shrine of Zorgon (Duchy of Aerik)</td></tr>\n    <tr><td><strong>HG9</strong></td><td>Barrowmaze (#11 The Standing Stone of the Chosen)</td></tr>\n  </tbody>\n</table>\n<p><em>Note:</em> Destroyed destinations are marked by <strong>Broken Runes</strong> and fail to operate if selected.</p>"
+      }
+    },
+    {
+      "name": "2. Secondary Uses & Crossing the Streams",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1 class=\"archaia-room-header\">Keystaff Secondary Uses (Henge Bowls)</h1>\n<p>Every Hengegate features stone statues or monolith extensions holding a copper bowl. Holding a fully assembled Keystaff over a bowl filled with specific materials triggers minor dweomers—and grants a <strong>15% chance</strong> (once per day per location) to restore <strong>+1 teleportation charge</strong> to the attached Headpiece:</p>\n\n<table>\n  <thead>\n    <tr>\n      <th>Material in Bowl</th>\n      <th>Dweomer Effect</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr><td><strong>Water</strong></td><td>Displays a visual image of the target destination Hengegate on the water's surface.</td></tr>\n    <tr><td><strong>Milk</strong></td><td>Projects two-way sound to and from the target Hengegate.</td></tr>\n    <tr><td><strong>Sand</strong></td><td>Teleports small hand-sized items placed atop the sand to the destination Hengegate.</td></tr>\n    <tr><td><strong>Iron Filings</strong></td><td>Causes the Keystaff to physically point toward the selected destination.</td></tr>\n    <tr><td><strong>Wood Chips</strong></td><td>Ignites a fire immediately.</td></tr>\n    <tr><td><strong>Blood</strong></td><td>Transmits any spell cast into the bowl directly to the target destination.</td></tr>\n    <tr><td><strong>Oil</strong></td><td>Animates the adjacent stone statue as a <strong>Greater Archaian Sentinel</strong>.</td></tr>\n    <tr><td><strong>Soil</strong></td><td>Restores a small creature (under 1 HD) to life.</td></tr>\n  </tbody>\n</table>\n\n<h2 class=\"archaia-room-header\">Crossing the Streams ([[/r 1d10]])</h2>\n<p>Carrying a disassembled second Keystaff through a Hengegate is safe. However, carrying <strong>more than one fully assembled Keystaff</strong> through an active Hengegate triggers a catastrophic anomaly (roll [[/r 1d10]]):</p>\n<ol>\n  <li>Nothing happens.</li>\n  <li>Only living beings pass through; all inanimate gear and clothing remain behind.</li>\n  <li>Random alignment change.</li>\n  <li>Teleported directly in front of a random <strong>Archon of the Trium</strong> ([[/r 1d3]]).</li>\n  <li>Transported to a random Hengegate.</li>\n  <li>An angry <strong>Balor</strong> demon is summoned onto the dais.</li>\n  <li>Transported to a random wilderness hex on the Region Map.</li>\n  <li>Transported to a random dungeon location in Archaia ([[/r 1d75]]).</li>\n  <li>A twisted mound of petrified flesh, organs, and [[/r 1d6]] gemstones materializes.</li>\n  <li>All travelers suffer [[/r 1d6]] damage per character level.</li>\n</ol>"
+      }
+    }
+  ]
+}

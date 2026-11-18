@@ -1,0 +1,12 @@
+{
+  "name": "Gartzee's Incredulous Apostate",
+  "type": "spell",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "system": {
+    "lvl": 2,
+    "class": "Magic-User / Illusionist",
+    "duration": "1 round/level",
+    "range": "1 Cleric, Druid, or Shaman",
+    "description": "<p>Incites a religious spellcaster into uncontrollable religious doubt and loud heresy unless they pass a <strong>Save vs. Spells</strong> (+1 bonus per level beyond 3rd). If cast on a priest within a group of fellow religious casters, all nearby priests must also Save vs. Spells or be bewildered for 1 round.</p>"
+  }
+}

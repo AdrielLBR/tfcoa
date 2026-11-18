@@ -1,0 +1,12 @@
+{
+  "name": "Summon Plants and Funguses",
+  "type": "spell",
+  "img": "icons/magic/nature/tree-animated-strike.webp",
+  "system": {
+    "lvl": 4,
+    "class": "Cleric (Impurax)",
+    "duration": "1 turn/level",
+    "range": "40'/level",
+    "description": "<p>Summons hostile plants or fungi to serve the caster (roll [[/r 1d10]]):</p><ul><li><strong>1–5 (1 HD, [[/r 1d10]]):</strong> 1) Blooderfly, 2) Oozie, 3) Vegepygmy.</li><li><strong>6–7 (2 HD, [[/r 2d4]]):</strong> 1) Phycomid, 2) Fungus Men, 3) Gas Spore Fungus.</li><li><strong>8–9 (3 HD, [[/r 1d4]]):</strong> 1) Plant-Based Dead, 2) Carnivorous Vines, 3) Fungus Men.</li><li><strong>10 (4 HD, [[/r 1d3]]):</strong> 1) Shambling Mound, 2) Basidirond, 3) Gibbering Mouther, 4) Carnivorous Vines.</li></ul>"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Fistfang",
+  "type": "spell",
+  "img": "icons/creatures/abilities/mouth-teeth-fangs-red.webp",
+  "system": {
+    "lvl": 1,
+    "class": "Cleric (Impurax)",
+    "duration": "2 rounds/level",
+    "range": "Self",
+    "description": "<p>Summons a snapping fanged maw onto the cleric's fist (1d4 base) or onto the head of a club, hammer, or mace (1d6 base), dealing an additional <strong>+2 damage</strong> on every successful melee hit.</p>"
+  }
+}

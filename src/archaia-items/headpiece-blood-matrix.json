@@ -1,0 +1,9 @@
+{
+  "name": "Headpiece of the Blood Matrix",
+  "type": "item",
+  "img": "icons/commodities/gems/gem-rough-ruby-gold.webp",
+  "system": {
+    "cost": 700,
+    "description": "<p><strong>Value:</strong> 700 gp | <strong>Hengegate Activation:</strong> 1/day (6 charges remaining).</p><p><strong>Property:</strong> Initializes only if smeared with [[/r 1d6]] HP of the bearer's own blood. Once per week, empowers the Keystaff to function as a <strong>Staff +2 Nine Lives Stealer</strong> for the duration of a single combat.</p>"
+  }
+}

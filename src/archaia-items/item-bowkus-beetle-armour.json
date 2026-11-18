@@ -1,0 +1,10 @@
+{
+  "name": "Bowku's Beetle Armour",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-chitin-purple.webp",
+  "system": {
+    "ac": { "value": 0 },
+    "aac": { "value": 19 },
+    "description": "<p><strong>Ebon Plate Mail +3 &amp; Helm (Fighter or Paladin only).</strong> Grants four unique powers:</p><ul><li><strong>Missile Immunity:</strong> Complete immunity to non-magical missiles.</li><li><strong>Flight:</strong> Dorsal wings allow limited flight up to 30' per move.</li><li><strong>Extra Arms:</strong> Second pair of arms below the main arms allows wielding four 1-handed weapons, two 2-handed weapons, or two ranged weapons (does not stack with high-level Fighter/Paladin multiple attacks).</li><li><strong>Giant Beetle Form (1/day, 2 turns):</strong> Transforms into a 7' giant flying beetle retaining the wearer's HP (MV 50', Bore 20', Fly 30', AC 3 [AAC 16], #AT 3 [bite 4d4, 2 horns 1d10/1d10]).</li></ul>"
+  }
+}

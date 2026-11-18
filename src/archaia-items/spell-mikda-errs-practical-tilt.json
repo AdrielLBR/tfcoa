@@ -1,0 +1,12 @@
+{
+  "name": "Mikda-Err's Practical Tilt",
+  "type": "spell",
+  "img": "icons/magic/earth/strike-fist-stone-gray.webp",
+  "system": {
+    "lvl": 2,
+    "class": "Magic-User / Illusionist",
+    "duration": "1 round",
+    "range": "Line of sight",
+    "description": "<p>Plants an illusion that the floor has violently tilted beneath 1 human-sized or smaller creature (+1 target per level after 1st). Targets failing a <strong>Save vs. Spells</strong> fall prone and lose 1 round standing up. Alternatively, the caster may impose a <strong>-1 save penalty</strong> per extra target sacrificed (e.g., at 3rd level: 3 targets, 2 targets at -1, or 1 target at -2).</p>"
+  }
+}

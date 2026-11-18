@@ -1,0 +1,9 @@
+{
+  "name": "Headpiece of the Twin Serpents",
+  "type": "item",
+  "img": "icons/creatures/reptiles/snake-twin-brass-green.webp",
+  "system": {
+    "cost": 600,
+    "description": "<p><strong>Value:</strong> 600 gp | <strong>Hengegate Activation:</strong> 1/day (5 charges remaining).</p><p><strong>Primary Property:</strong> Two brass serpents with emerald eyes. Everyone passing through a Hengegate opened with this headpiece is restored as per a <em>Heal</em> spell.</p>"
+  }
+}

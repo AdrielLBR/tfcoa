@@ -1,0 +1,9 @@
+{
+  "name": "Headpiece of Gozor",
+  "type": "item",
+  "img": "icons/commodities/treasure/bust-marble-woman.webp",
+  "system": {
+    "cost": 500,
+    "description": "<p><strong>Value:</strong> 500 gp | <strong>Hengegate Activation:</strong> 2/day (8 charges remaining).</p><p><strong>Primary Property:</strong> Sculpted marble head allowing the bearer to polymorph into a maximum-HD <strong>Hell Hound</strong> for 1 turn/level, or summon [[/r 1d3]] maximum-HD Hell Hounds (10% chance summoned hounds attack the caster).</p>"
+  }
+}

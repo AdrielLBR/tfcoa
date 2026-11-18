@@ -1,0 +1,8 @@
+{
+  "name": "Power Ring: Icy Glaciate",
+  "type": "item",
+  "img": "icons/equipment/finger/ring-gem-blue-silver.webp",
+  "system": {
+    "description": "<p><strong>Slot 3 on an Ebon Staff (requires Embarkation &amp; Destination Rings).</strong> Bears the <em>Ice</em> rune. Elevates the Ebon Staff to a <strong>+4 magic weapon</strong> and adds <em>Hold Person</em>, <em>Ice Storm</em>, and <em>Cone of Cold</em> (1/day each at 7th caster level, if the wielder can cast spells of that level).</p>"
+  }
+}

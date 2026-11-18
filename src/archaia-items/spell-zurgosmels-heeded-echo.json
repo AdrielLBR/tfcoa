@@ -1,0 +1,12 @@
+{
+  "name": "Zurgosmel's Heeded Echo",
+  "type": "spell",
+  "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+  "system": {
+    "lvl": 3,
+    "class": "Magic-User / Illusionist",
+    "duration": "2 rounds/level",
+    "range": "60' + 10'/level",
+    "description": "<p>Projects a false voice that monstrous humanoids of 3 HD or fewer (4 targets + 1 per caster level) perceive as a legitimate command from a tribal chieftain or warlord. Monsters of 4+ HD are unaffected; 3 HD or lower get a <strong>Save vs. Spells (-2)</strong> only if the command contradicts obvious tactical sense.</p>"
+  }
+}

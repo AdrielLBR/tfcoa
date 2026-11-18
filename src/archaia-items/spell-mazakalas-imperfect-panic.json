@@ -1,0 +1,12 @@
+{
+  "name": "Mazakala's Imperfect Panic",
+  "type": "spell",
+  "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+  "system": {
+    "lvl": 1,
+    "class": "Magic-User / Illusionist",
+    "duration": "1d6 rounds + 1/level",
+    "range": "40'",
+    "description": "<p>Inspires panic in <strong>[[/r 2d4]] + 1 per level</strong> humanoids of 2 HD or fewer (Save vs. Spells negates). Affected targets can take no other actions and roll [[/r 1d6]]: <strong>1:</strong> Screams and flees randomly; <strong>2:</strong> Sobs uncontrollably; <strong>3:</strong> Attacks nearest humanoid; <strong>4:</strong> Vomits loudly; <strong>5:</strong> Curls into fetal position; <strong>6:</strong> Referee's choice.</p>"
+  }
+}

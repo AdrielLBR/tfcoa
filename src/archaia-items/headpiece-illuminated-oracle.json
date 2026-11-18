@@ -1,0 +1,9 @@
+{
+  "name": "Headpiece of the Illuminated Oracle",
+  "type": "item",
+  "img": "icons/commodities/treasure/trinket-eye-gold-ruby.webp",
+  "system": {
+    "cost": 600,
+    "description": "<p><strong>Value:</strong> 600 gp | <strong>Hengegate Activation:</strong> 2/day (8 charges remaining).</p><p><strong>Primary Property:</strong> Ruby eye inside a golden triangle that glows blue to grant <em>True Sight</em> (as a <em>Gem of True Seeing</em>). <strong>Curse:</strong> While attached, the <em>Archons of the Trium</em> constantly know the bearer's exact location (as an <em>Amulet of Inescapable Location</em>).</p>"
+  }
+}
