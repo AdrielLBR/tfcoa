@@ -7,6 +7,18 @@ function makeId(seed) {
   return crypto.createHash('md5').update(seed).digest('hex').slice(0, 16);
 }
 
+const DEFAULT_STATS = {
+  coreVersion: '14.370',
+  systemId: 'ose',
+  systemVersion: '3.3.0',
+  createdTime: Date.now(),
+  modifiedTime: Date.now(),
+  lastModifiedBy: 'tfcoaBuilder00000',
+  compendiumSource: null,
+  duplicateSource: null,
+  exportSource: null
+};
+
 const PACKS = [
   { name: 'archaia-journals', prefix: 'journals', subKey: 'pages',   subPrefix: 'journals.pages' },
   { name: 'archaia-actors',   prefix: 'actors',   subKey: 'items',   subPrefix: 'actors.items' },
@@ -37,9 +49,11 @@ async function build() {
 
         const docId = doc._id || makeId(`${pack.name}:${file}`);
         doc._id = docId;
+        doc._stats = doc._stats || { ...DEFAULT_STATS };
 
         if (pack.prefix === 'journals') {
           doc.folder = null;
+          doc.categories = doc.categories || [];
           doc.sort = (count + 1) * 100000;
           doc.ownership = doc.ownership || { default: 0 };
           doc.flags = doc.flags || {};
@@ -54,6 +68,7 @@ async function build() {
 
             if (pack.subPrefix === 'journals.pages') {
               sub.type = sub.type || 'text';
+              sub.category = null;
               sub.title = {
                 show: sub.title?.show ?? true,
                 level: sub.title?.level ?? 1
@@ -70,6 +85,7 @@ async function build() {
               sub.sort = (idx + 1) * 100000;
               sub.ownership = sub.ownership || { default: -1 };
               sub.flags = sub.flags || {};
+              sub._stats = sub._stats || { ...DEFAULT_STATS };
             }
 
             await db.put(`!${pack.subPrefix}!${docId}.${subId}`, sub);
