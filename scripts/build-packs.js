@@ -38,14 +38,40 @@ async function build() {
         const docId = doc._id || makeId(`${pack.name}:${file}`);
         doc._id = docId;
 
-        // No Foundry v12+, subdocumentos (pages, items, results) são gravados
-        // como chaves próprias no LevelDB e referenciados por _id no array pai
+        if (pack.prefix === 'journals') {
+          doc.folder = null;
+          doc.sort = (count + 1) * 100000;
+          doc.ownership = doc.ownership || { default: 0 };
+          doc.flags = doc.flags || {};
+        }
+
         if (pack.subKey && Array.isArray(doc[pack.subKey])) {
           const subIds = [];
           for (let idx = 0; idx < doc[pack.subKey].length; idx++) {
             const sub = doc[pack.subKey][idx];
             const subId = sub._id || makeId(`${pack.name}:${file}:${pack.subKey}:${idx}`);
             sub._id = subId;
+
+            if (pack.subPrefix === 'journals.pages') {
+              sub.type = sub.type || 'text';
+              sub.title = {
+                show: sub.title?.show ?? true,
+                level: sub.title?.level ?? 1
+              };
+              sub.image = sub.image || {};
+              sub.text = {
+                format: 1,
+                content: sub.text?.content || '',
+                markdown: ''
+              };
+              sub.video = sub.video || { controls: true, volume: 0.5 };
+              sub.src = null;
+              sub.system = sub.system || {};
+              sub.sort = (idx + 1) * 100000;
+              sub.ownership = sub.ownership || { default: -1 };
+              sub.flags = sub.flags || {};
+            }
+
             await db.put(`!${pack.subPrefix}!${docId}.${subId}`, sub);
             subIds.push(subId);
           }
