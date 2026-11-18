@@ -6,6 +6,6 @@
     "build:packs": "node scripts/build-packs.js"
   },
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "latest"
+    "classic-level": "^2.0.0"
   }
 }

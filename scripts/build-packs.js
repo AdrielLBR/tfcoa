@@ -1,65 +1,69 @@
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
-const { execSync } = require('child_process');
+const { ClassicLevel } = require('classic-level');
 
-// Gera um ID alfanumérico determinístico de 16 caracteres a partir de uma string
 function makeId(seed) {
   return crypto.createHash('md5').update(seed).digest('hex').slice(0, 16);
 }
 
 const PACKS = [
-  { name: 'archaia-journals', prefix: 'journals', subKey: 'pages', subPrefix: 'journals.pages' },
-  { name: 'archaia-actors',   prefix: 'actors',   subKey: 'items', subPrefix: 'actors.items' },
+  { name: 'archaia-journals', prefix: 'journals', subKey: 'pages',   subPrefix: 'journals.pages' },
+  { name: 'archaia-actors',   prefix: 'actors',   subKey: 'items',   subPrefix: 'actors.items' },
   { name: 'archaia-tables',   prefix: 'tables',   subKey: 'results', subPrefix: 'tables.results' },
-  { name: 'archaia-items',    prefix: 'items',    subKey: null,    subPrefix: null }
+  { name: 'archaia-items',    prefix: 'items',    subKey: null,      subPrefix: null }
 ];
 
-const tempDir = path.join(__dirname, '..', '.tmp-src');
-if (fs.existsSync(tempDir)) fs.rmSync(tempDir, { recursive: true, force: true });
+async function build() {
+  for (const pack of PACKS) {
+    const srcFolder = path.join(__dirname, '..', 'src', pack.name);
+    const outPackFolder = path.join(__dirname, '..', 'packs', pack.name);
 
-for (const pack of PACKS) {
-  const srcFolder = path.join(__dirname, '..', 'src', pack.name);
-  const outTempFolder = path.join(tempDir, pack.name);
-  const outPackFolder = path.join(__dirname, '..', 'packs', pack.name);
+    if (fs.existsSync(outPackFolder)) {
+      fs.rmSync(outPackFolder, { recursive: true, force: true });
+    }
+    fs.mkdirSync(outPackFolder, { recursive: true });
 
-  fs.mkdirSync(outTempFolder, { recursive: true });
-  if (fs.existsSync(outPackFolder)) fs.rmSync(outPackFolder, { recursive: true, force: true });
+    const db = new ClassicLevel(outPackFolder, { keyEncoding: 'utf8', valueEncoding: 'json' });
+    await db.open();
 
-  if (!fs.existsSync(srcFolder)) continue;
+    if (fs.existsSync(srcFolder)) {
+      const files = fs.readdirSync(srcFolder).filter(f => f.endsWith('.json'));
+      let count = 0;
 
-  const files = fs.readdirSync(srcFolder).filter(f => f.endsWith('.json'));
-  let count = 0;
+      for (const file of files) {
+        const raw = fs.readFileSync(path.join(srcFolder, file), 'utf8');
+        const doc = JSON.parse(raw);
 
-  for (const file of files) {
-    const raw = fs.readFileSync(path.join(srcFolder, file), 'utf8');
-    const doc = JSON.parse(raw);
+        const docId = doc._id || makeId(`${pack.name}:${file}`);
+        doc._id = docId;
 
-    const docId = doc._id || makeId(`${pack.name}:${file}`);
-    doc._id = docId;
-    doc._key = `!${pack.prefix}!${docId}`;
+        // No Foundry v12+, subdocumentos (pages, items, results) são gravados
+        // como chaves próprias no LevelDB e referenciados por _id no array pai
+        if (pack.subKey && Array.isArray(doc[pack.subKey])) {
+          const subIds = [];
+          for (let idx = 0; idx < doc[pack.subKey].length; idx++) {
+            const sub = doc[pack.subKey][idx];
+            const subId = sub._id || makeId(`${pack.name}:${file}:${pack.subKey}:${idx}`);
+            sub._id = subId;
+            await db.put(`!${pack.subPrefix}!${docId}.${subId}`, sub);
+            subIds.push(subId);
+          }
+          doc[pack.subKey] = subIds;
+        }
 
-    // Injeta _id e _key em subdocumentos (pages, items, results)
-    if (pack.subKey && Array.isArray(doc[pack.subKey])) {
-      doc[pack.subKey] = doc[pack.subKey].map((sub, idx) => {
-        const subId = sub._id || makeId(`${pack.name}:${file}:${pack.subKey}:${idx}`);
-        return {
-          ...sub,
-          _id: subId,
-          _key: `!${pack.subPrefix}!${docId}.${subId}`
-        };
-      });
+        await db.put(`!${pack.prefix}!${docId}`, doc);
+        count++;
+      }
+
+      console.log(`[OK] ${pack.name}: ${count} documentos gravados no LevelDB.`);
     }
 
-    fs.writeFileSync(path.join(outTempFolder, file), JSON.stringify(doc, null, 2));
-    count++;
+    await db.close();
   }
-
-  console.log(`Empacotando ${pack.name} (${count} arquivos)...`);
-  execSync(`npx fvtt package pack ${pack.name} --in "${outTempFolder}" --out "${outPackFolder}"`, {
-    stdio: 'inherit'
-  });
 }
 
-fs.rmSync(tempDir, { recursive: true, force: true });
-console.log('Compêndios compilados com sucesso!');
+build().catch(err => {
+  console.error('Erro ao compilar compêndios:', err);
+  process.exit(1);
+});
